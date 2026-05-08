@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00049",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00049",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5312,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00049_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00049_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5234,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00049_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": null
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5469,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00049_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "B",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "60-70",
+      "ethnic_hint": "of Sub-Saharan African descent",
+      "hair": "buzzed hair",
+      "eyes": "sharp hazel eyes"
+    },
+    "description": "This individual appears to be a male in their 50s with deep, warm brown skin, showing some fine lines around the eyes and forehead. The face is oval with a defined jawline. The hair is very short, closely cropped, and gray, with a slightly receding hairline. The eyes are almond-shaped and a striking hazel color, set wide apart, under medium-thick, slightly arched gray eyebrows. The nose is broad with a wide bridge and a rounded tip. The lips are medium-thick and well-defined, forming a gentle, closed-mouth smile. A short, neatly trimmed gray beard and mustache cover the chin and upper lip. The head is angled slightly to the left, with a direct, pleasant expression.",
+    "anchor": "male with hazel eyes and gray beard",
+    "action_scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features and their arrangement are consistent across both images.",
+      "cost_usd": 0.0002231,
+      "elapsed_ms": 3578
+    }
+  }
+}

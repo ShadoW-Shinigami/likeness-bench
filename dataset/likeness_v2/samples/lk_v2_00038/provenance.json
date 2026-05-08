@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:50.698407+00:00",
+  "type_a": true,
+  "action_scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 16835,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their fifties, of Sub-Saharan African descent, with straight blonde hair and soft green eyes, a calm, neutral expression. diffuse cloudy-day lighting. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+    "prompt": "The exact same person as in the reference image, now jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 209626
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19102,
+      "prompt": "A man in his late 40s, fair skin, with a slightly square jawline, running on a beach at sunrise, wearing athletic shorts and a t-shirt. His dark blonde hair with streaks of gray is short and messy, swept back by the wind. His eyes are deep-set and round, a clear blue, with thin, arched eyebrows. He has a prominent, slightly hooked nose and thin, firm lips. A neatly trimmed, salt-and-pepper stubble covers his chin and upper lip. He has a determined expression. Full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21829,
+      "prompt": "A man in his late 40s jogging along a beach at sunrise, wearing athletic clothing, full-body shot. He has fair skin with subtle laugh lines, a square jawline, a slightly broader nose with a more prominent bridge, distinctly round blue eyes, and thin, downturned lips. His hair is medium-length, straight, styled with a side part, a mix of silver and light brown, with a prominent widow's peak. His eyebrows are thick and arched, and he has a clean-shaven face with a strong, cleft chin. He has a determined expression, looking slightly to the side. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15241,
+      "prompt": "Male, 40s to 50s, fair skin, fine lines around eyes and forehead. Hair is medium-length, wavy, styled with a messy part, light blonde with gray streaks, slightly receding hairline. Dark blue eyes, hooded, with thicker, slightly arched eyebrows. Nose with a slightly concave bridge and a prominent, slightly upturned tip. Lips are thin, with a subtle Cupid's bow. Full, neatly trimmed salt-and-pepper beard and mustache. Jogging along a beach at sunrise, athletic clothing, three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

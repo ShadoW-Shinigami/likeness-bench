@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00025",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00025",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4375,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00025_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4766,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00025_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5312,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00025_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5078,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00025_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "60-70",
+      "ethnic_hint": "of Northern European descent",
+      "hair": "straight blonde hair",
+      "eyes": "sharp hazel eyes"
+    },
+    "description": "The subject is a woman appearing to be in her 50s, presenting with fair skin that shows some sun damage, fine lines, and scattered freckles across her nose and cheeks. Her face is an oval shape with a moderately defined jawline. Her hair is straight, shoulder-length, and blonde with visible grey roots, parted on the left. Her eyes are almond-shaped and green, set moderately wide apart, with thin, light brown eyebrows. Her nose is straight with a slightly rounded tip, and her lips are medium thickness, forming a neutral, closed expression. Her head is angled slightly down, looking directly at the viewer.",
+    "anchor": "Woman with straight blonde hair and green eyes.",
+    "action_scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+    "type_a_action_verify": null
+  }
+}

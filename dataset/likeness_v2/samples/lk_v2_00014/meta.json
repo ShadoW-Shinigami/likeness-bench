@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00014",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00014",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.4766,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00014_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+      "variation_hint": null
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5234,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00014_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00014_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00014_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "A",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "30-40",
+      "ethnic_hint": "of Northern European descent",
+      "hair": "short black hair",
+      "eyes": "amber eyes"
+    },
+    "description": "The subject is a male-presenting individual in their 30s with medium olive skin and a few faint freckles visible on the cheeks. Their face is oval-shaped with a defined jawline. The hair is short, dark brown, wavy, and styled back from a slightly receding hairline. The eyes are almond-shaped and a striking amber color, set widely apart. Thick, dark eyebrows are gently arched. The nose is straight with a slightly rounded tip. The mouth has medium-full lips, forming a gentle smile. A neatly trimmed, dark brown beard and mustache cover the lower face. The head is angled slightly to the right, with a pleasant, direct gaze.",
+    "anchor": "Striking amber eyes.",
+    "action_scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye shape, nose, and mouth, are consistent.",
+      "cost_usd": 0.0002331,
+      "elapsed_ms": 3683
+    }
+  }
+}

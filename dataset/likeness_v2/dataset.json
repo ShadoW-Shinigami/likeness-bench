@@ -1,0 +1,32 @@
+{
+  "version": "likeness_v2",
+  "created_at": "2026-05-08T08:06:07.561224+00:00",
+  "n_samples": 50,
+  "license": "CC-BY-4.0",
+  "license_notes": "Fictional persons. NB2 t2i for distractors, GPT-Image-2 Edit for Type A correct answers. All four options share one action scenario.",
+  "source_breakdown": {
+    "nb2": {
+      "endpoint": "fal-ai/nano-banana-2"
+    },
+    "gpt_image_2": {
+      "endpoint": "openai/gpt-image-2/edit"
+    },
+    "vision_describe": {
+      "endpoint": "openrouter/router/vision",
+      "model": "google/gemini-2.5-flash"
+    }
+  },
+  "ledgers": {
+    "nb2": {
+      "total_usd": 5.759999999999994,
+      "n_calls": 128,
+      "failures": 0
+    },
+    "gpt_image_2": {
+      "total_usd": 7.499999999999997,
+      "n_calls": 25,
+      "failures": 0
+    }
+  },
+  "schema_version": "1.0.0"
+}

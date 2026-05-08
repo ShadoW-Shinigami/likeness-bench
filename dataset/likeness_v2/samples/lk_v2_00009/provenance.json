@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:16.308057+00:00",
+  "type_a": false,
+  "action_scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15724,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their sixties, of Mediterranean descent, with long curly hair and sharp hazel eyes, a thoughtful look. soft daylight from a north-facing window. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18257,
+      "prompt": "A woman in her 50s with olive skin, a few fine lines around her eyes and forehead. Her face is slightly heart-shaped with a soft, rounded jawline. Her dark, medium-length wavy hair, flecked with gray, frames her face, with a full hairline. Her round eyes are a warm hazel, set close together. Her eyebrows are thin and gently curved. Her nose is slightly upturned with a narrow bridge. Her lips are thin and delicately shaped. She has a few small beauty marks on her chin. Her features suggest a Mediterranean or Middle Eastern heritage. She is shopping at an outdoor farmer's market, holding a paper bag overflowing with fresh vegetables, full-body shot. She is looking straight ahead with a thoughtful expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21089,
+      "prompt": "A woman in her early 50s with warm olive skin and subtle smile lines, her square face features a strong, angular jawline. Her thick, dark brown wavy hair with prominent silver streaks frames her face, with a full, low hairline. Her round, deep-set dark brown eyes are closely spaced. Her eyebrows are thin and gently curved. Her nose is aquiline with a prominent bridge. Her lips are thin and straight. She has faint freckles across her nose and cheeks, suggesting South Asian heritage. She is holding a paper bag overflowing with colorful vegetables, shopping at a sunny outdoor farmer's market, full-body shot, looking casually towards the camera with a friendly, relaxed expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15428,
+      "prompt": "A full-body shot of a woman in her 50s, with warm olive skin and subtle fine lines, shopping at an outdoor farmer's market. She holds a paper bag overflowing with fresh vegetables. Her dark, medium-length curly hair, flecked with gray, frames a heart-shaped face with a softer, slightly rounded jawline. Her deep-set, round brown eyes are wide apart, under a slightly higher brow arch. Her nose is aquiline with a prominent bridge. Her lips are thin and downturned. She has no moles. Her features suggest a Mediterranean or Middle Eastern heritage. She looks forward with a thoughtful expression, her head held level. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16351,
+      "prompt": "A woman in her early 50s, fair olive skin with subtle laugh lines at the corners of her eyes. Her face is heart-shaped, with a softer, gently curved jawline. Her dark, medium-length curly hair, with prominent silver strands, frames her face, with a full, natural hairline. Her large, round eyes are a deep emerald green, set wide apart. Her eyebrows are full and straight. Her nose is aquiline with a prominent bridge. Her lips are thin and downturned. She has a faint scar on her upper lip. Her features suggest Southern European ancestry. She stands at an outdoor farmer's market, looking straight ahead with a thoughtful expression, holding a brown paper bag overflowing with colorful vegetables. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

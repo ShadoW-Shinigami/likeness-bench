@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:04.901868+00:00",
+  "type_a": true,
+  "action_scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 18697,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their mid-twenties, of Middle Eastern descent, with a neat bun and soft green eyes, a relaxed expression. soft daylight from a north-facing window. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+    "prompt": "The exact same person as in the reference image, now crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 234747
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18627,
+      "prompt": "A young woman in her late 20s with warm, golden-brown skin and a few scattered freckles across her high cheekbones, crossing a downtown crosswalk at golden hour. Her face is heart-shaped with a strong, angular jawline. Her dark brown hair is styled in a messy high ponytail, with a few wisps framing her face. Her deep-set, round brown eyes are closer together than average, and her medium-thick, straight eyebrows are slightly darker than her hair. She has a short, broad nose with a flat bridge. Her thin lips are pursed slightly, and her expression is one of thoughtful determination. She wears a casual oversized denim jacket and dark jeans. Three-quarter body shot, candid, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 24853,
+      "prompt": "A female-presenting individual in their late 20s, light olive skin with a scattering of freckles on the bridge of her nose, a subtly heart-shaped face with a well-defined jawline, dark brown hair styled in a messy high ponytail, warm brown eyes with a slight downturn, straight, thick eyebrows, a narrow nose with a high bridge, and thin, elegant lips, a neutral expression with a hint of thoughtfulness, crossing a bustling downtown crosswalk at golden hour, wearing casual urban clothing, full-body candid shot, head slightly tilted away from the viewer but face still clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23448,
+      "prompt": "Full-body candid shot of a female-presenting individual in their late 20s, with warm olive skin and a scattering of freckles around her nose and cheeks, walking across a busy downtown crosswalk at golden hour, wearing casual urban clothing. Her face is clearly visible, with a V-shaped jawline and a prominent, slightly upturned nose. Her dark brown hair is styled in a loose, wavy ponytail. Her deep-set, round brown eyes are closer together than average. Her full, heart-shaped lips are closed in a neutral expression. She is looking directly forward, not at the camera. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:06:07.559493+00:00",
+  "type_a": false,
+  "action_scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 26381,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their fifties, of South Asian descent, with straight blonde hair and amber eyes, a soft smile. diffuse cloudy-day lighting. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16935,
+      "prompt": "A woman in her late 40s with warm olive skin, a few subtle fine lines around her eyes, and a small beauty mark above her lip, rides a bicycle on a sunlit city street. Her face is a soft heart shape with a gently sculpted jawline. Her hair is light brown, wavy, styled in a side part, and falls just past her shoulders, with a slightly lower hairline than average. Her round, dark brown eyes are set close together, beneath thin, lightly arched eyebrows. Her nose is slender with a subtle upward curve at the tip, and her lips are full with a natural, understated pout, forming a soft, relaxed expression. She is wearing casual clothing, and her head is turned slightly to the left, looking directly at the camera. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23766,
+      "prompt": "Full-body shot of a woman in her late 40s, South Asian heritage, with warm medium-brown skin, riding a bicycle on a sunlit city street, wearing casual clothing, head turned slightly towards the camera. Her face has a heart shape, with a more angular jawline and a prominent, slightly aquiline nose. Her deep-set, round brown eyes are beneath a low, straight brow. Her full, bowed lips are relaxed, slightly parted, revealing no teeth. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17786,
+      "prompt": "A South Asian woman in her late 40s with warm, golden-tan skin and subtle laugh lines, her face a soft heart shape with a gently sculpted jawline. Her thick, dark brown hair, styled in a voluminous wavy bob that reaches her chin, frames her face. Her deep-set, round hazel eyes are accentuated by full eyelids and a slight epicanthic fold, beneath dark, straight eyebrows. Her nose is narrow with a high, slightly aquiline bridge and a pointed tip. Her lips are thin and subtly downturned, with a closed-mouth, serene expression. She is riding a bicycle on a sunlit city street, wearing casual clothing, a full-body shot with her face turned slightly towards the camera. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18782,
+      "prompt": "A woman in her late 40s, South Asian, riding a bicycle on a sunlit city street, casual clothing, full-body shot. She has a heart-shaped face with a prominent jawline and high cheekbones. Her dark brown eyes are deep-set and round, with a subtle upward tilt at the outer corners, beneath thin, gently arched eyebrows. Her nose is long and narrow with a pointed tip. Her lips are full and slightly downturned, showing a neutral expression. Her medium-length black hair is wavy and pulled back into a low ponytail. She is looking slightly to the left of the camera. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

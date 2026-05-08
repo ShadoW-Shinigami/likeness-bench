@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:01:29.093096+00:00",
+  "type_a": true,
+  "action_scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 18077,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their fifties, of mixed heritage, with buzzed hair and deep dark eyes, a thoughtful look. warm afternoon sunlight. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+    "prompt": "The exact same person as in the reference image, now carrying a yoga mat through a city street, athletic clothes, full-body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 215511
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16144,
+      "prompt": "A 50-year-old woman with warm olive skin, a heart-shaped face and a strong, angular jawline, carrying a yoga mat through a bustling city street, wearing athletic clothes, full body shot. She has very short, buzz-cut salt-and-pepper hair, with no visible receding hairline. Her deep-set, round eyes are dark brown and set close together. Her eyebrows are thin and gently curved. Her nose is aquiline with a pointed tip and a narrow bridge. Her lips are thin with a less defined cupid's bow. A few faint sunspots are visible on her cheekbones. Her expression is serene and observant, looking directly at the viewer. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 26987,
+      "prompt": "Full-body shot of a woman in her early 50s, warm olive skin with subtle laugh lines, carrying a yoga mat through a bustling city street. She has a square jawline, a short, buzz-cut salt-and-pepper hairstyle with a slightly receding hairline, and deep-set, round dark brown eyes. Her medium-thick eyebrows are straight and low. Her nose is aquiline with a pointed tip and a narrow bridge. Her thin lips are pursed, and her chin is prominent. Small brown freckles dot her cheeks and nose. Her expression is focused and serene, head turned slightly to the right with a level gaze. She is dressed in athletic leggings and a fitted tank top. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21010,
+      "prompt": "A full-body shot of a woman in her late 40s, carrying a yoga mat through a bustling city street, wearing athletic clothes. She has warm olive skin with developing fine lines around her eyes and mouth. Her face is heart-shaped with a softly pointed chin and a strong, square jawline. Her very short, buzz-cut salt-and-pepper hair frames her face, with a hint of receding hairline at the temples. Her eyes are large and round, a striking hazel, set slightly closer together than average. Her eyebrows are thin and gently curved. Her nose is aquiline with a narrow bridge and a sharp tip. Her lips are thin and straight, with a less defined cupid's bow. A few faint sunspots dot her cheekbones. Her expression is serene and composed, her head held straight, looking directly forward. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

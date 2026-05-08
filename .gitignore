@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# secrets
+.env
+.env.local
+bench.local.toml
+
+# in-flight run state
+runs/
+
+# build/cache directories
+dataset/cache/
+embeddings/
+*.faiss
+
+# Original-resolution PNGs (too big — ship JPEGs in the public repo;
+# private repo references Azure CDN URLs).
+dataset/*/samples/*/*.png
+dataset/*/work/
+
+# JS
+web/node_modules/
+web/dist/
+web/.vite/
+
+# misc
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# consent records (private)
+consent_records/*
+!consent_records/.hashes.json

@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:24.258766+00:00",
+  "type_a": false,
+  "action_scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 19522,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their early thirties, of East Asian descent, with wavy auburn hair and deep dark eyes, a relaxed expression. even studio lighting with a soft box. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16982,
+      "prompt": "A woman in her 30s of East Asian heritage with fair to light olive skin, a heart-shaped face, a strong, angular jawline, and a high forehead. Her dark brown, medium-thick, straight eyebrows are set above deep-set, round brown eyes. Her lips are thin with a less defined Cupid's bow. A short, narrow nose with a pointed tip. Her hair is medium reddish-brown, shoulder-length, straight, with a middle part, and without bangs. She is looking up at the camera with a neutral expression, seated at a wooden desk with a laptop and a coffee cup, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21970,
+      "prompt": "A female in her early 30s, fair to light olive skin with subtle freckles dusting her cheeks. Her face is slightly heart-shaped with a delicate, pointed jawline. Her hair is medium reddish-brown, shoulder-length, loosely curly, and styled with a center part. Her hairline is naturally low across her forehead. Her eyes are light hazel, downturned almond shape, and set close together. The eyebrows are thin, gently curved, and dark brown. Her nose has a high, prominent bridge with a very slightly upturned tip. Her lips are thin with a less defined Cupid's bow. She is working at a wooden desk with a laptop and a coffee cup, looking up towards the camera with a neutral, calm expression. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19676,
+      "prompt": "A person in their early 30s, East Asian heritage, appearing female, with warm fair skin and light freckles dusting her nose and upper cheeks. Her face is heart-shaped with a subtly pointed chin and a strong, defined jawline. Medium-length, dark auburn hair, softly curled and styled with a center part, framing a high forehead. Her eyes are dark hazel, deep-set and round, with long, dark lashes. Her eyebrows are thick, straight, and dark brown. Her nose is slender with a prominent bridge and a slightly upturned tip. Her lips are full with a less defined Cupid's bow. She is looking up at the camera with a neutral, thoughtful expression, seated at a wooden desk with a laptop open before her and a coffee cup to her side, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19993,
+      "prompt": "A woman in her early 30s with light olive skin and a scattering of subtle freckles, long dark auburn hair with a center part, flowing past her shoulders. Her face is heart-shaped with a slightly pointed chin and a strong, defined jawline. She has dark, upturned eyes, set close together, beneath thick, straight eyebrows. Her nose is long and narrow with a pointed tip, and her lips are full with a subtle, soft curve. She is seated at a wooden desk with a laptop open and a coffee cup beside it, looking directly at the camera with a friendly, engaging smile. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

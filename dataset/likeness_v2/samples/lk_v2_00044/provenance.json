@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:26.875799+00:00",
+  "type_a": true,
+  "action_scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 14475,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Middle Eastern descent, with a neat bun and deep dark eyes, a calm, neutral expression. diffuse cloudy-day lighting. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid",
+    "prompt": "The exact same person as in the reference image, now crossing a downtown crosswalk at golden hour, casual urban clothing, full-body candid. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 321616
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16262,
+      "prompt": "Full-body shot of an East Asian man in his late 30s, walking briskly across a downtown crosswalk at golden hour, wearing casual urban clothing. He has a square jawline, a short, slightly upturned nose, and wide-set, round brown eyes with slightly hooded lids. His dark brown, wavy hair is styled in a messy quiff, and he has a full, dark beard and mustache with subtle grey streaks. His lips are thin with a less defined cupid's bow. His face is slightly longer with less prominent cheekbones than the original. He has a confident, neutral expression, looking slightly to the left. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19894,
+      "prompt": "Full-body candid shot of a male-presenting individual in their late 30s, olive skin, crossing a downtown crosswalk at golden hour, wearing casual urban clothing. Their face is a strong square shape with a broad jaw, dark brown wavy hair styled short and messy, framing a high forehead. Deep-set, round dark brown eyes are closely spaced, beneath thick, straight eyebrows. The nose is short and upturned with a wide bridge. Lips are thin and straight, with a faint scar above the left corner. A full, dark beard with faint grey hairs and a mustache covers a prominent chin. A small beauty mark is visible on the right temple. They have a thoughtful gaze, head tilted slightly to the left. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20927,
+      "prompt": "A male-presenting individual, 30s-40s, olive skin, fine lines around the eyes, with a square face, broad jaw, and a medium-length, dark brown, slightly curly hair styled naturally, no defined hairline visible. Their eyes are round, dark brown, and set close together, with medium-thick, straight eyebrows. The nose is slender with a slight curve, and lips are thin with a less defined cupid's bow. A full, dark beard and mustache, with a few light grey hairs, no mole visible. They are crossing a downtown crosswalk at golden hour, wearing casual urban clothing, captured in a full-body candid shot, looking directly at the camera with a neutral expression. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

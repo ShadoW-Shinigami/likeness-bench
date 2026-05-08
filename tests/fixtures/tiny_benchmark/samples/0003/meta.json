@@ -1,0 +1,59 @@
+{
+  "id": "0003",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "p3",
+    "real_or_synthetic": "synthetic",
+    "license": "CC0",
+    "source": "fixture"
+  },
+  "base_image": "base.png",
+  "options": {
+    "A": {
+      "image": "option_a.png",
+      "kind": "distractor",
+      "similarity_tier": "hard",
+      "similarity_cosine": 0.61,
+      "source": "fixture",
+      "person_id": "p3_d_a"
+    },
+    "B": {
+      "image": "option_b.png",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.42,
+      "source": "fixture",
+      "person_id": "p3_d_b"
+    },
+    "C": {
+      "image": "option_c.png",
+      "kind": "distractor",
+      "similarity_tier": "hard",
+      "similarity_cosine": 0.59,
+      "source": "fixture",
+      "person_id": "p3_d_c"
+    },
+    "D": {
+      "image": "option_d.png",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.22,
+      "source": "fixture",
+      "person_id": "p3_d_d"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "high",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "synthid_present": false,
+    "human_reviewed": true,
+    "preset": "medium_mix"
+  }
+}

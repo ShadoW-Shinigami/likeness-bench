@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00021",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00021",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00021_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00021_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00021_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5078,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00021_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "30-40",
+      "ethnic_hint": "of Middle Eastern descent",
+      "hair": "salt-and-pepper hair",
+      "eyes": "light blue eyes"
+    },
+    "description": "A male-presenting individual in their 40s has a medium skin tone with visible pores and some fine lines on the forehead. Their face is oval with a defined jawline. The hair is short, salt-and-pepper gray, thick, and styled casually swept back from a slightly receding hairline. Bright blue eyes are almond-shaped and set normally, complemented by thick, dark, slightly arched eyebrows. The nose is straight with a defined bridge and tip, and the mouth features medium-thick lips. A short, neatly trimmed gray beard and mustache cover the lower face. The overall impression suggests a Mediterranean or Middle Eastern heritage. The expression is neutral, looking directly at the viewer, with the head held straight.",
+    "anchor": "Bright blue eyes with salt-and-pepper hair.",
+    "action_scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+    "type_a_action_verify": null
+  }
+}

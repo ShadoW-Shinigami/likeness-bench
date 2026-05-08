@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:06:02.123604+00:00",
+  "type_a": true,
+  "action_scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 20900,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their sixties, of Sub-Saharan African descent, with buzzed hair and sharp hazel eyes, a soft smile. even studio lighting with a soft box. a textured beige wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+    "prompt": "The exact same person as in the reference image, now standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 227865
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21384,
+      "prompt": "A man in his early 50s, warm dark brown skin with subtle laugh lines, a square face with a strong, angular jawline. His hair is very short, salt-and-pepper gray, with a receding hairline. He has large, round, dark brown eyes set relatively close together under thick, straight gray eyebrows. His nose is narrow with a high bridge and a pointed tip. His lips are thin with a Cupid's bow, relaxed into a neutral expression. A neatly trimmed gray goatee and mustache frame his mouth. He stands at a bustling bar, holding a whiskey glass, head tilted slightly to the right, glancing off-camera, bathed in soft, warm ambient light. Medium full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22034,
+      "prompt": "A medium full-body shot of a man in his early 50s, standing at a busy bar, holding a glass. He has warm brown skin with subtle laugh lines. His facial shape is square, with a strong, angular jawline. His very short, closely cropped salt-and-pepper hair recedes slightly at the temples. His eyes are round and a vibrant blue, set under thick, straight gray eyebrows. His nose is narrow with a high bridge and a pointed tip. His lips are thin and straight, with a closed, neutral expression. A neatly trimmed gray goatee and mustache frame his mouth. He is looking directly at the viewer with a friendly, inviting gaze. Soft, warm lighting illuminates the scene. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22471,
+      "prompt": "A three-quarter portrait of a man in his late 50s, standing in a busy bar, holding a glass. He has warm brown skin with some fine lines, a slightly more angular face, and high, prominent cheekbones. His hair is very short, closely cropped, and gray, with a receding hairline. His eyes are rounder and a deep brown, set slightly closer, under straighter, medium-thick gray eyebrows. His nose is narrower with a straighter bridge and a more pointed tip. His lips are thinner and gently curved into a closed-mouth smile. He has a neatly trimmed gray beard and mustache. The lighting is soft and warm. His head is angled slightly to the left, with a direct, pleasant expression. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

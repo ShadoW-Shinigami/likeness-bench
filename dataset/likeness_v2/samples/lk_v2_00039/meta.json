@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00039",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00039",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5391,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00039_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4453,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00039_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4453,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00039_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00039_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "50-60",
+      "ethnic_hint": "of mixed heritage",
+      "hair": "salt-and-pepper hair",
+      "eyes": "deep dark eyes"
+    },
+    "description": "This is a portrait of a person in their 40s, presenting as male, with warm olive skin and subtle fine lines around the eyes. Their face is oval with a defined jawline, and they have short, wavy, salt-and-pepper hair, mostly dark brown with significant graying, styled back from a receding hairline. The eyes are dark brown, almond-shaped, and set slightly wide apart, beneath thick, dark, slightly arched eyebrows. The nose is straight with a rounded tip, and the mouth features medium-full lips curved into a warm smile, revealing white teeth. A neatly trimmed, salt-and-pepper beard and mustache cover the lower face, and the overall appearance suggests a mixed heritage. The person is looking directly at the viewer with a friendly expression, head held straight.",
+    "anchor": "Smiling face with salt-and-pepper hair and beard.",
+    "action_scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+    "type_a_action_verify": null
+  }
+}

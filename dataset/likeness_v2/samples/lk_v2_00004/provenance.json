@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:01:40.977184+00:00",
+  "type_a": true,
+  "action_scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 17916,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their mid-twenties, of South Asian descent, with a tied-back ponytail and amber eyes, a relaxed expression. warm afternoon sunlight. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+    "prompt": "The exact same person as in the reference image, now standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 235685
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16978,
+      "prompt": "A young woman in her late 20s or early 30s with sun-kissed olive skin and a few faint beauty marks, stands at a bustling bar, holding a whiskey glass. Her dark hair is swept up in a loose, high bun, with a few strands escaping. Her striking, deep hazel eyes are downturned and closely set, framed by full, expressive eyebrows. She has a Roman nose with a high bridge, and her lips are full and pillowy, hinting at a gentle smile. Her face is heart-shaped, with a softly pointed chin. Medium full-body shot, soft warm lighting. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19378,
+      "prompt": "A woman in her late 20s or early 30s with warm olive skin and a few subtle imperfections, standing at a busy bar, holding a cocktail glass. Her dark brown hair is styled in a high, messy bun with soft tendrils framing her face. She has deep-set, round hazel eyes that are close-set, with full, straight brows. Her nose is aquiline with a pointed tip, and her lips are thin and subtly downturned. Her face is heart-shaped with a strong, angular jawline. A faint, knowing smirk plays on her lips, and her head is tilted slightly left. Medium full-body shot, soft warm lighting, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17504,
+      "prompt": "A young woman in her late 20s with warm olive skin, a heart-shaped face with a moderately defined jawline, and a slightly larger, broader nose. Her dark brown hair is styled in a loose, low bun with soft tendrils framing her face, revealing a slightly higher forehead. Her captivating hazel eyes are round and set closer together, framed by thick, straight eyebrows. Her lips are slender with a distinct cupid's bow. She has a faint beauty mark above her left lip. She stands at a busy bar holding a cocktail glass, a gentle, genuine smile playing on her lips, her head tilted slightly to the left. Medium full-body shot, soft warm lighting, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

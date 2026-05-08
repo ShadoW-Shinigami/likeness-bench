@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:53.193933+00:00",
+  "type_a": false,
+  "action_scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 19086,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of Sub-Saharan African descent, with short black hair and sharp hazel eyes, a soft smile. natural light from a side window. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21048,
+      "prompt": "A woman in her late 40s with rich, dark brown skin and a smooth complexion, featuring a few faint freckles across her nose and cheeks. Her face is a heart shape, with a slightly pointed chin and a delicate jawline. She has short, curly black hair, styled cropped close to her head, and a slightly receding hairline that enhances her broad forehead. Her eyes are large and round, set moderately apart, with warm hazel irises. Her eyebrows are thin and gently curved. Her nose is narrow with a pointed tip. Her lips are full with a subtle, undefined cupid's bow. She is seated at a wooden desk with a laptop open before her and a coffee cup to her side, looking up at the camera with a soft, closed-mouth smile. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21467,
+      "prompt": "A woman in her late 40s with deep brown skin and a smooth texture, exhibiting a few small freckles on her cheeks and forehead. Her face is a heart shape with a softly pointed chin and a slightly wider, angular jawline. She has short, tightly curled black hair, styled close to the head with a natural hairline. Her eyes are round, with striking amber irises, and set closer together. Her eyebrows are medium thickness and naturally arched. Her nose has a high, narrow bridge and a slightly upturned tip. Her lips are full, with a less defined cupid's bow. She has subtle smile lines around her eyes and mouth, and her head is angled slightly to the left with a gentle, closed-mouth smile. She is seated at a wooden desk with a laptop and a coffee cup, looking up at the camera. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19447,
+      "prompt": "A woman in her late 40s with deep brown skin and a smooth texture, a few small freckles across her cheeks and a high forehead. Her face is a heart shape with a sharp, angular jawline. She has short, curly black hair, a receding hairline with tight ringlets framing her face. Her eyes are round and close-set, with striking amber irises. Her eyebrows are thin and slightly angled. Her nose has a narrow bridge and a slightly pointed tip. Her lips are full with a less defined cupid's bow. She has subtle smile lines around her eyes and mouth. She is seated at a wooden desk with a laptop and a coffee cup, looking up at the camera, her head angled slightly to the right with a gentle, closed-mouth smile. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17272,
+      "prompt": "A woman in her late 40s with deep brown skin and a smooth texture, exhibiting a few small freckles on her cheeks and forehead. Her face is a round shape with a softly square jawline. She has short, tightly curled black hair, styled close to the head with a natural hairline. Her eyes are downturned almond-shaped and widely set, with striking amber irises. Her eyebrows are thick and straight. Her nose has a slender bridge and a slightly upturned tip. Her lips are full and pillowy, with a less defined cupid's bow. She has subtle smile lines around her eyes and mouth, and her head is angled slightly to the left with a gentle, closed-mouth smile. She is working at a wooden desk with a laptop and a coffee cup, looking up at the camera, three-quarter body. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:39.519136+00:00",
+  "type_a": true,
+  "action_scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 16317,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their fifties, of Northern European descent, with a neat bun and soft green eyes, a soft smile. soft daylight from a north-facing window. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+    "prompt": "The exact same person as in the reference image, now cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 232465
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16670,
+      "prompt": "A person in their late 50s, feminine presentation, fair skin with subtle laugh lines at the corners of their eyes. Their face is heart-shaped with a softer, slightly tapered jawline. Hair is entirely silver-gray, neatly braided and pinned up, framing a higher forehead. The eyes are round, hazel, and set slightly wider apart. Eyebrows are thin and gently curved. The nose is slightly aquiline with a narrow tip. The mouth has thin, elegant lips, closed in a serene, small smile. Their cheekbones are high and prominent, and their face length is medium. They are cooking at a stovetop in a sunlit kitchen, wearing a floral apron, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17666,
+      "prompt": "A person in their late 50s, feminine presentation, fair skin with subtle wrinkles around the eyes and lips. Their face is heart-shaped with a softer, wider jawline. The hair is mostly gray with silver highlights, styled in a low ponytail, revealing a full hairline. The eyes are round and blue, set slightly closer together. Eyebrows are thin and gently curved. The nose has a slightly upturned tip and a narrow bridge. The mouth features full, natural lips, closed in a warm, knowing smile. They are cooking at a stovetop in a sunlit kitchen, wearing a floral apron, three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16358,
+      "prompt": "A person in their late 50s with feminine presentation, fair skin with subtle laugh lines, and a warm, inviting expression. Their face is a soft heart shape with a subtly rounded jawline. Their silver-gray hair, with some darker streaks, is styled in a loose, low ponytail, framing a slightly higher forehead. They have large, expressive hazel eyes, downturned at the outer corners, set a bit closer together than average. Their eyebrows are thin and slightly curved. The nose has a delicate, upturned tip with a slight dip in the bridge. Their mouth features full, soft lips, closed in a serene smile. They are cooking at a stovetop in a sunlit kitchen, wearing a patterned apron, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

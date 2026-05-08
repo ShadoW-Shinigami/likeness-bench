@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00048",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00048",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5078,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00048_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00048_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.4453,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00048_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": null
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4375,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00048_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "A",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "40-50",
+      "ethnic_hint": "of Mediterranean descent",
+      "hair": "a tied-back ponytail",
+      "eyes": "amber eyes"
+    },
+    "description": "This person appears to be a male in their 40s, with olive skin tone showing some fine lines around the eyes. Their face is oval with a defined jawline, and they have dark brown, wavy hair pulled back into a low bun, with a receding hairline at the temples. The eyes are almond-shaped and a striking amber color, set with thick, dark, arched eyebrows. The nose is prominent with a straight bridge and a slightly rounded tip, and the lips are medium thickness with a natural, relaxed curve. A full beard and mustache, dark brown with noticeable graying, covers the lower face. The person is looking slightly upwards and to the right, with a calm expression, their head angled slightly to the left.",
+    "anchor": "Amber eyes and graying beard",
+    "action_scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including nose, eyes, and mouth, are consistent.",
+      "cost_usd": 0.0002306,
+      "elapsed_ms": 2724
+    }
+  }
+}

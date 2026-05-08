@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:44.932649+00:00",
+  "type_a": false,
+  "action_scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15463,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their sixties, of Northern European descent, with straight blonde hair and sharp hazel eyes, a calm, neutral expression. warm afternoon sunlight. a textured beige wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16550,
+      "prompt": "Full body shot of a woman in her late 50s, fair skin with some sun damage and freckles, hiking on a forest trail, wearing casual outdoor clothes, a daypack on her back. Her face is turned directly towards the camera, with a gentle smile. She has a heart-shaped face with a softer jawline. Her hair is wavy, shoulder-length, blonde with visible grey roots, parted on the right. Her eyes are round, deep blue, and set close together, with slightly thicker, light brown eyebrows. Her nose is aquiline with a prominent bridge, and her lips are full with a subtle upturn. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18087,
+      "prompt": "A full-body shot of a woman in her late 40s to early 50s hiking on a forest trail with a daypack, wearing casual outdoor clothes. She has fair skin with a few sunspots and faint smile lines, and a sprinkling of freckles across her high cheekbones. Her face is heart-shaped with a delicate, angular jawline. Her hair is straight, chin-length, and blonde with subtle silver streaks, parted on the right. Her eyes are round, blue, and set close together, with slightly arched, medium brown eyebrows. She has a small, upturned nose and full lips with a slightly upturned, natural smile. Her head is angled slightly upwards, looking directly at the viewer. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17320,
+      "prompt": "A woman in her early 50s, fair skin with sun damage, fine lines, and scattered freckles, hiking on a forest trail with a daypack, wearing casual outdoor clothes. She has a heart-shaped face with a softer jawline and a slightly upturned nose. Her hair is straight, shoulder-length, blonde with visible grey roots, parted on the left. Her eyes are round, green, and set closer together, with thin, light brown eyebrows. Her lips are thin, in a neutral, closed expression. Full-body shot, face turned toward the camera. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20312,
+      "prompt": "A woman in her early 50s, fair skin with sun-kissed freckles, a square jawline, and a broad forehead. Her straight, dark blonde hair, with subtle grey highlights, is pulled back into a low ponytail, revealing a receding hairline. Her deep-set, round blue eyes are framed by thick, dark eyebrows. She has a Roman nose and thin, slightly upturned lips, forming a soft smile. She is hiking on a forest trail, wearing a blue fleece jacket and hiking pants, with a small daypack on her back. She is looking directly at the camera, a full-body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

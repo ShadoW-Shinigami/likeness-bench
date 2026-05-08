@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00022",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00022",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00022_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00022_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4375,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00022_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5234,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00022_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+      "variation_hint": null
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "D",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "40-50",
+      "ethnic_hint": "of East Asian descent",
+      "hair": "wavy auburn hair",
+      "eyes": "soft green eyes"
+    },
+    "description": "A female-presenting individual in their 40s has fair, smooth skin with minimal visible texture, and a subtly oval face with a soft jawline. Her reddish-brown hair is shoulder-length, wavy, and styled with a side part, framing her face. Her striking green eyes are almond-shaped and set slightly wide apart, complemented by medium-thick, gently arched eyebrows. She has a straight nose with a defined bridge and a rounded tip, and her lips are medium thickness with a natural, soft curve. Fine lines are visible around her eyes and forehead, and her head is angled directly forward with a neutral, calm expression.",
+    "anchor": "striking green eyes",
+    "action_scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye spacing, nose shape, and mouth, are consistent.",
+      "cost_usd": 0.0002356,
+      "elapsed_ms": 2747
+    }
+  }
+}

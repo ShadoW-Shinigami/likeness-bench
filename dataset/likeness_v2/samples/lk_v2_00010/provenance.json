@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:20.459418+00:00",
+  "type_a": true,
+  "action_scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 22637,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of East Asian descent, with a neat bun and amber eyes, a relaxed expression. soft daylight from a north-facing window. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+    "prompt": "The exact same person as in the reference image, now hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 240060
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16913,
+      "prompt": "A female presenting individual, 30s to 40s, hiking on a forest trail with a daypack, wearing casual outdoor clothes. She has warm olive skin with subtle fine lines, scattered small freckles across cheeks and nose. Dark brown hair pulled back into a neat bun, revealing a clean hairline. Her face is a heart shape with a softly pointed chin and a strong, square jawline. Her eyes are striking amber, round, and set slightly closer together. Eyebrows are thick and straight. Her nose has a slightly upturned tip and a very subtle bump on the bridge. Lips are thin with a less defined cupid's bow. Her expression is a soft, closed-mouth smile, with a higher brow. Full-body shot, face turned toward camera. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23326,
+      "prompt": "Full-body shot of a female presenting individual, early 30s to early 40s, hiking on a forest trail with a daypack, wearing casual outdoor clothes. She has warm olive skin with subtle sun-kissed freckles, a heart-shaped face with prominent cheekbones and a more angular jawline. Her dark brown hair is tied back in a low ponytail, revealing a slightly wider forehead. Her eyes are a warm hazel, rounder in shape than almond, and set closer together. Her eyebrows are thicker and straighter. Her nose has a slight bump on the bridge and a slightly upturned tip. Her lips are full with a less defined cupid's bow, parted in a relaxed, gentle smile. Her head is tilted slightly to the left, looking directly at the viewer. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 30430,
+      "prompt": "A female-presenting individual, 30s-40s, hiking on a forest trail with a daypack, wearing casual outdoor clothes. She has warm olive skin with subtle fine lines and scattered small freckles. Her face is a heart shape with a slightly narrower jawline. Her dark brown hair is pulled into a ponytail. Her eyes are light brown, round, and set closer together. Her eyebrows are thicker and straighter. Her nose is slightly upturned with a narrow bridge. Her lips are full with a less defined cupid's bow. She has a soft, open-mouthed smile, and her head is angled slightly to the left, looking directly at the viewer. Full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

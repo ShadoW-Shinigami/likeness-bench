@@ -1,0 +1,137 @@
+# Default Likeness Detector configuration. Override with bench.local.toml (gitignored).
+
+[engine]
+output_dir = "results"
+runs_dir   = "runs"
+default_benchmark = "likeness_v1"
+default_concurrency = 4
+log_level = "INFO"
+max_cost_usd_default = 50.0
+
+[image]
+max_edge_px = 1024
+format = "png"
+
+[server]
+host = "127.0.0.1"
+port = 8000
+web_dist = "web/dist"
+
+[providers.openai]
+api_key_env = "OPENAI_API_KEY"
+base_url = "https://api.openai.com/v1"
+max_concurrency = 6
+
+[providers.anthropic]
+api_key_env = "ANTHROPIC_API_KEY"
+max_concurrency = 4
+
+[providers.google]
+api_key_env = "GOOGLE_API_KEY"
+max_concurrency = 4
+
+[providers.openrouter_fal]
+api_key_env = "FAL_KEY"
+max_concurrency = 4
+
+[providers.arcface]
+max_concurrency = 4
+
+[providers.mock]
+max_concurrency = 16
+
+# Models — each maps a model id to a registered provider class plus pricing.
+
+[models.mock]
+provider = "mock"
+model_id = "mock-1"
+display = "Mock Provider"
+family = "Baseline"
+price_per_1m_input = 0.0
+price_per_1m_output = 0.0
+
+[models.gpt-4o]
+provider = "openai"
+model_id = "gpt-4o"
+display = "GPT-4o"
+family = "OpenAI"
+price_per_1m_input = 2.5
+price_per_1m_output = 10.0
+
+[models.claude-sonnet-4-5]
+provider = "anthropic"
+model_id = "claude-sonnet-4-5"
+display = "Claude Sonnet 4.5"
+family = "Anthropic"
+price_per_1m_input = 3.0
+price_per_1m_output = 15.0
+
+[models.gemini-2-5-pro]
+provider = "google"
+model_id = "gemini-2.5-pro"
+display = "Gemini 2.5 Pro"
+family = "Google"
+price_per_1m_input = 1.25
+price_per_1m_output = 10.0
+
+# --- Pure-vision baseline (no LLM): ArcFace + threshold rule ---
+
+[models.arcface]
+provider = "arcface"
+model_id = "buffalo_l"
+display = "ArcFace (buffalo_l)"
+family = "InsightFace"
+price_per_1m_input = 0.0
+price_per_1m_output = 0.0
+threshold = 0.5
+
+# --- OpenRouter-routed-via-Fal models (the 6 the user asked for) ---
+# These all hit `openrouter/router/vision` with temperature=1.0 + reasoning=true.
+
+[models.gpt-5_5]
+provider = "openrouter_fal"
+model_id = "openai/gpt-5.5"
+display = "GPT-5.5"
+family = "OpenAI"
+price_per_1m_input = 0.0
+price_per_1m_output = 0.0
+
+[models.gemini-3-flash]
+provider = "openrouter_fal"
+model_id = "google/gemini-3-flash-preview"
+display = "Gemini 3 Flash"
+family = "Google"
+
+[models.seed-2-lite]
+provider = "openrouter_fal"
+model_id = "bytedance-seed/seed-2.0-lite"
+display = "Seed 2.0 Lite"
+family = "ByteDance"
+
+[models.seed-1-6]
+provider = "openrouter_fal"
+model_id = "bytedance-seed/seed-1.6"
+display = "Seed 1.6"
+family = "ByteDance"
+
+[models.claude-opus-4-7]
+provider = "openrouter_fal"
+model_id = "anthropic/claude-opus-4.7"
+display = "Claude Opus 4.7"
+family = "Anthropic"
+
+[models.claude-opus-4-6]
+provider = "openrouter_fal"
+model_id = "anthropic/claude-opus-4.6"
+display = "Claude Opus 4.6"
+family = "Anthropic"
+
+[scoring.likeness_v1]
+w_present = 0.5
+w_absent = 0.5
+lambda_e = 0.25
+
+[scoring.likeness_v2]
+w_present = 0.5
+w_absent = 0.5
+lambda_e = 0.25

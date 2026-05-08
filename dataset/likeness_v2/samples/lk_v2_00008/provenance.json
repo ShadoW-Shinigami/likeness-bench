@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:09.760204+00:00",
+  "type_a": true,
+  "action_scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15862,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their early thirties, of Latin American descent, with straight blonde hair and warm brown eyes, a relaxed expression. natural light from a side window. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+    "prompt": "The exact same person as in the reference image, now jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 230594
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20672,
+      "prompt": "A woman in her early 30s, fair skin with a light smattering of freckles, jogging along a beach at sunrise, wearing athletic clothing. Her face is slightly heart-shaped with high cheekbones and a more defined jawline, and her long blonde hair with darker roots is parted off-center, gently swaying past her shoulders. She has slightly upturned, round brown eyes under subtly straighter, medium-thick eyebrows. Her nose is slightly aquiline with a narrow bridge, and her lips are thinner, forming a gentle, closed smile. Her expression is focused and serene, with her head angled slightly to the left. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19401,
+      "prompt": "A smiling woman in her early 30s jogging on a beach at sunrise, athletic wear. She has a heart-shaped face with a chiseled jawline, long wavy blonde hair with sun-kissed highlights, parted down the middle, flowing over her shoulders. Her eyes are a striking blue, round, and slightly downturned, beneath thin, straight eyebrows. Her nose is aquiline with a pointed tip, and her mouth has thin, upturned lips. She has a radiant, energetic expression, and her head is angled slightly to the left. Full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 27846,
+      "prompt": "A woman in her 30s, fair skin, light freckles sparsely across her nose, with a slightly oily complexion, jogging along a beach at sunrise. Her face is slightly heart-shaped with a more angular jawline. Her hair is long, straight, and blonde with darker roots, parted slightly off-center, reaching past her shoulders. Her eyes are round, a warm brown, set slightly wide, beneath thin, straight eyebrows. Her nose is aquiline with a pointed tip, and her mouth features thin lips, curved into a closed-mouth smile. She presents with a serious, focused expression. Full-body shot, athletic clothing, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

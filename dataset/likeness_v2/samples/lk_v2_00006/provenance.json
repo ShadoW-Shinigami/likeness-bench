@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:00.765263+00:00",
+  "type_a": false,
+  "action_scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 18066,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their sixties, of mixed heritage, with long curly hair and amber eyes, a soft smile. warm afternoon sunlight. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 14422,
+      "prompt": "A full-body candid photograph of a male-presenting individual in their 50s with warm olive skin, walking through an autumn park with leaves on the ground. He has a squarer face shape with high cheekbones and a slightly shorter face length than average. Visible fine lines around the eyes and forehead. His dark brown hair, with significant graying throughout, is loosely wavy and reaches his shoulders. His eyes are downturned ovals, a rich hazel color, and set closer together. His thick, dark eyebrows are mostly straight with a slight arch at the ends, also showing some gray. His nose has a slightly Roman bridge and a squared-off tip. He has thinner lips, with a neatly trimmed gray beard and mustache covering his chin and upper lip. He has a thoughtful, relaxed expression, looking forward as he walks. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16723,
+      "prompt": "Full-body candid photograph of a male-presenting individual in their 50s with olive skin, walking through an autumn park with leaves on the ground. He has a squared jawline, a short, broad nose, round dark brown eyes set close together, and thin, gently arched eyebrows. His short, straight dark brown hair with significant graying on the sides recedes slightly at the temples, revealing a high forehead. He has thin lips and a neatly trimmed gray beard and mustache. He is smiling warmly, looking directly at the viewer with a slight head tilt. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20122,
+      "prompt": "A male-presenting individual in their early 50s with warm olive skin and subtle smile lines. The face is a soft square shape with a medium jawline. Long, dark brown, gently wavy hair with noticeable graying throughout, reaching the upper back. The eyes are roundish and a rich hazel, set closer together. Thick, dark eyebrows with some gray hairs are flatter. The nose has a slightly upturned tip and a broader bridge. The mouth has thin, well-defined lips. A short, neatly trimmed gray beard and mustache, covering a slightly receding chin. The person has a relaxed, closed-mouth smile, walking through an autumn park with leaves on the ground, gaze directed slightly off-camera. Full-body candid photograph, three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23809,
+      "prompt": "A male-presenting individual in their 50s, full-body candid photograph walking through an autumn park with leaves on the ground. He has warm olive skin, with faint laugh lines around his eyes. His face is rectangular with a softer jawline. Long, dark brown, tightly coiled hair with noticeable graying at the roots and temples frames his face, extending past the shoulders. His eyes are downturned and hazel green, set slightly closer together. Thick, dark eyebrows with some gray hairs have a straighter arch. His nose has a slightly concave bridge and a pointed tip. His mouth has thin lips, and a short, neatly trimmed gray beard and mustache cover his chin and upper lip. He has a neutral, contemplative expression, gazing off to the side. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

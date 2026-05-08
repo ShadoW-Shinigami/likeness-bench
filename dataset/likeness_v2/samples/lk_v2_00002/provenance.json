@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:01:17.671400+00:00",
+  "type_a": true,
+  "action_scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15560,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their mid-twenties, of South Asian descent, with shoulder-length brown hair and deep dark eyes, a calm, neutral expression. warm afternoon sunlight. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+    "prompt": "The exact same person as in the reference image, now playing with a dog in a backyard with a ball, sunny daylight, full-body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 218824
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18350,
+      "prompt": "A fair-skinned male in his early 30s, with dark brown, medium-length curly hair, a square jawline, a short, broad nose, thin lips, and deep-set hazel eyes with a flat brow, playing with a golden retriever in a sunlit backyard, throwing a tennis ball. Full body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 25091,
+      "prompt": "A full-body shot of a young man, 20s to early 30s, with warm olive skin and a smooth texture, playing with a golden retriever in a sun-drenched backyard. He has a squarer jawline, dark brown wavy hair, a pronounced nose bridge with a slightly hooked tip, striking hazel eyes, and thinner lips with a less defined Cupid's bow. He has light stubble, a neutral expression, and is holding a tennis ball. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16093,
+      "prompt": "A young man in his late 20s, with warm olive skin and a smooth texture. His face is more angular, with a strong, chiseled jawline. Dark brown, wavy hair, parted slightly off-center, cascades past the shoulders. His eyes are deep-set, dark brown, and have a captivating, slightly upturned shape. Thick, dark eyebrows have a natural, almost straight line. The nose is aquiline with a pointed tip. The mouth has thinner lips with a less pronounced Cupid's bow. Clean-shaven. He is laughing heartily while playing fetch with a golden retriever in a sun-drenched backyard, a tennis ball mid-air. Full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

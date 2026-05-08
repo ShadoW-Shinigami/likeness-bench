@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:48.739153+00:00",
+  "type_a": true,
+  "action_scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 17288,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their mid-twenties, of Sub-Saharan African descent, with long curly hair and sharp hazel eyes, a calm, neutral expression. natural light from a side window. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+    "prompt": "The exact same person as in the reference image, now playing with a dog in a backyard with a ball, sunny daylight, full-body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 237402
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 30536,
+      "prompt": "A young man in his late 20s, with a warm medium-brown skin tone, subtle sun-kissed freckles across his nose and cheeks. His face is slightly more angular than oval, with a squarer jawline. He has long, dark brown, tightly coiled curly hair that reaches his shoulders, with a natural hairline. His eyes are wide-set and downturned, with striking light green irises and dark limbal rings, framed by thick, dark, slightly arched eyebrows. His nose is Roman with a slightly narrow bridge and a pointed tip. His lips are full with a less defined cupid's bow. He sports a short, neatly trimmed dark beard and mustache. He is smiling broadly, throwing a tennis ball for a golden retriever in a sun-drenched backyard. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 24075,
+      "prompt": "Full body shot, a person in their late 20s, appearing male, with warm medium-brown skin, playing fetch with a golden retriever in a sunny backyard, holding a tennis ball. This person has a square-shaped face with a slightly softer jawline than the original. Their long, dark brown, tightly coiled curly hair extends past the shoulders but has a slightly receding hairline and a high forehead. Their eyes are downturned and widely set, with striking light green irises and dark limbal rings. Thin, dark, straight eyebrows. The nose is slightly upturned with a narrow bridge. Their lips are full with a less defined cupid's bow. A short, neatly trimmed dark beard and mustache covering the chin and upper lip. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17677,
+      "prompt": "A young adult, appearing male, with warm medium-brown skin and subtle, scattered sun-kissed freckles across their nose and cheeks. They have a heart-shaped face with a softer, slightly tapered jawline. Long, dark brown, loosely wavy hair cascades past their shoulders, framing their face. Their eyes are rounder and slightly wider-set than almond, with striking light green irises and dark limbal rings. Their eyebrows are dark, straight, and slightly lower-set. The nose is slightly upturned with a narrow bridge and a delicate tip. Their lips are full and pillowy with a less defined cupid's bow. A short, neatly trimmed dark beard and mustache accent their chin and upper lip. This person is captured in a full-body shot, laughing joyfully while playing fetch with a golden retriever in a sunny backyard, a red ball suspended mid-air between them. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

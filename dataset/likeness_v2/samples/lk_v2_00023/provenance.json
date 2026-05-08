@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:35.775563+00:00",
+  "type_a": false,
+  "action_scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15851,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their early thirties, of Northern European descent, with straight blonde hair and deep dark eyes, a calm, neutral expression. diffuse cloudy-day lighting. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 14748,
+      "prompt": "Full body shot of a person in their late 20s, presenting as male, jogging along a beach at sunrise, wearing athletic clothing. Their face is clearly visible, with fair skin and a smooth texture. Short, straight blonde hair, swept to the left, revealing a slightly receding hairline. Dark brown, round eyes set close together. Thick, slightly arched eyebrows. A broad nose with a flat bridge and a slightly upturned tip. Full lips with a less defined cupid's bow. A chiseled jawline. Light stubble on the chin. Neutral expression, looking forward. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19259,
+      "prompt": "A person in their late 20s to early 30s, presenting as male, with fair skin and a smooth texture, subtle redness on the cheeks. Face is heart-shaped with a softly defined jawline. Hair is short, straight, and blonde, styled with a side part and swept to the right, revealing a slightly receding hairline at the temples. Eyes are striking blue, round, and set close together. Eyebrows are medium thick and slightly arched. Nose is aquiline with a broad bridge. Lips are full with a less defined cupid's bow. Light stubble covers the jawline and chin. Neutral expression, looking directly forward with a level head angle, while jogging along a beach at sunrise in athletic clothing, full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21640,
+      "prompt": "Full body shot of a person in their late 20s, presenting as male, jogging along a beach at sunrise, wearing athletic clothing. They have fair skin with a clear complexion and a slightly elongated, angular face. Their prominent cheekbones cast subtle shadows. The hair is short, straight, and light blonde, swept back from a higher hairline. The eyes are dark brown, round, and set closer together. Medium thick, slightly arched eyebrows. The nose is slightly upturned with a delicate bridge and defined nostrils. Lips are thin, with a less defined cupid's bow. Clean-shaven jawline and chin. Neutral expression, looking directly forward, head level. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 28598,
+      "prompt": "A person in their late 20s, presenting as male, jogging along a beach at sunrise, wearing athletic clothing. They have fair skin with a clear complexion and a touch of rosiness on the cheeks. Their face is heart-shaped with a subtly rounded jawline. The hair is short, straight, and light brown, styled casually with a slight fringe, no receding hairline. The eyes are hazel, round, and set close together. Eyebrows are thin and arched. The nose is slightly upturned with a broad bridge. Lips are thin, with a less defined cupid's bow. A very faint stubble covers the chin. The person has a determined, focused expression, looking forward with a slight upward tilt of the head. Full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

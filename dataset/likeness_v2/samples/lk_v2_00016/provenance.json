@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:56.584654+00:00",
+  "type_a": false,
+  "action_scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15294,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their fifties, of Northern European descent, with wavy auburn hair and deep dark eyes, a thoughtful look. natural light from a side window. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17254,
+      "prompt": "A woman in her 40s, fair skin, subtle fine lines, a softer, heart-shaped face with a delicate jawline. Her hair is medium-length, wavy, deep auburn with subtle highlights near the crown, casually framing her face. Her eyes are a striking hazel, rounder and closer set, and her full, naturally arched eyebrows define her gaze. Her nose has a slightly upturned bridge and a more pointed tip. Her lips are full and pillowy, with a less defined cupid's bow. She has a faint beauty mark above her left eyebrow. Her expression is contemplative and calm, her head slightly tilted to the right and angled downwards. She leans casually against a weathered red brick wall in a quiet alley, wearing comfortable, simple clothes. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 27410,
+      "prompt": "A woman in her early 40s, fair skin with subtle laugh lines, her face a heart-shaped silhouette with a softly pointed chin. Her hair is chin-length, dark chestnut brown, with subtle golden highlights, styled in soft curls that frame her face. Her eyes are large and round, a deep hazel color, set closer together, her eyebrows are thin and gently curved. Her nose is aquiline with a narrow bridge and a sharp tip. Her lips are full and pillowy with a less defined cupid's bow. She is leaning casually against a weathered red brick wall in a tranquil alleyway, three-quarter body shot, a slight smile on her lips, looking directly at the viewer. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21482,
+      "prompt": "A woman in her 40s, fair skin, light wrinkles around eyes, an angular jawline, a prominent chin, medium-length wavy auburn hair with lighter strands, styled loosely. Her eyes are dark brown, slightly hooded and closer set, with a gentle upward tilt. Her eyebrows are thicker and straighter. Her nose is aquiline with a pointed tip. Her lips are full and wide, with a barely-there cupid's bow. She is leaning against a brick wall in a quiet alley, 3/4 body shot, head turned slightly to the right and angled slightly downwards, thoughtful and serene expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23016,
+      "prompt": "A woman in her 40s, fair skin, light wrinkles around her eyes, heart-shaped face with a prominent jawline. Medium-length, wavy, deep auburn hair, styled loosely around her face. Deep blue, hooded eyes, close-set. Thin, subtly arched eyebrows. A slightly upturned nose with a high bridge. Full lips with a less defined cupid's bow. A few faint freckles across her nose and cheeks. Thoughtful, serene expression, head turned slightly to the left and angled slightly upwards. Leaning against a brick wall in a quiet alley, casual clothes, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

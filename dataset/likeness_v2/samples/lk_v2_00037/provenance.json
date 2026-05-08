@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:47.107476+00:00",
+  "type_a": false,
+  "action_scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15462,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Latin American descent, with straight blonde hair and deep dark eyes, a soft smile. soft daylight from a north-facing window. a textured beige wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 30504,
+      "prompt": "A 30s man of mixed European descent, sitting on a wooden bench, reading a paperback book in late afternoon light. He has an oblong face with a slightly softer jawline, medium-length wavy blonde hair styled with a side part, a slightly broader nose with a more pronounced bridge, deep blue downturned eyes, and fuller lips. He has a neatly trimmed beard and mustache. Full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 25187,
+      "prompt": "A full-body shot of a man in his late 30s sitting on a wooden bench, reading a paperback book in late afternoon light. His skin is medium-toned with a healthy glow. He possesses a strong, square jawline and a prominent, slightly aquiline nose. His eyes are deep-set and round, a warm hazel color, beneath thick, straight eyebrows. His lips are thin and subtly downturned. His short, dark brown hair is neatly swept back from a high forehead, with no signs of recession. He has a clean-shaven face. He is looking down at his book, a gentle, contemplative expression on his face. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 24251,
+      "prompt": "A male in his late 30s with warm medium skin and a strong, square jawline, dark brown eyes with a slight downward tilt, a short, broad nose, and full, bowed lips. He has a neatly trimmed beard and mustache, with a lower brow height than average, and a prominent, rounded chin. His medium-length wavy blonde hair is styled back from a receding hairline. He is sitting on a wooden bench, reading a paperback book in late afternoon light. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 24206,
+      "prompt": "A 30s-"
+    }
+  ]
+}

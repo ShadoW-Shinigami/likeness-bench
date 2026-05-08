@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:43.346666+00:00",
+  "type_a": true,
+  "action_scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 17957,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their sixties, of Latin American descent, with salt-and-pepper hair and soft green eyes, a calm, neutral expression. warm afternoon sunlight. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+    "prompt": "The exact same person as in the reference image, now leaning against a brick wall in a quiet alley, casual clothes, three-quarter body. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 243420
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17286,
+      "prompt": "A male-presenting individual, 50s-60s, with fair skin and subtle sun damage. His face is rectangular with a broader jawline and prominent cheekbones. Short, wavy, dark gray hair, slightly thinner than the original, with a subtle side part. Deep-set blue eyes are rounder, beneath lighter, well-groomed eyebrows. His nose is aquiline with a pointed tip. Lips are thin, pressed into a slight smile. A short, neatly trimmed gray stubble covers his jaw and chin. He is of European descent, looking directly at the viewer with a thoughtful expression, head tilted slightly to the left. He leans casually against a weathered brick wall in a quiet alley, wearing a plaid button-down shirt over a dark t-shirt. Three-quarter body shot, upper body in focus. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21481,
+      "prompt": "A male-presenting individual in their late 50s, standing casually against a weathered brick wall in a quiet alley, three-quarter body shot. He has fair, slightly weathered skin with subtle lines around his eyes and mouth. His face is angular with a strong, broad jawline. His short, wavy silver-gray hair, thick and full, frames his face. His deep-set, round blue eyes, spaced slightly wider apart, gaze directly at the viewer beneath thick, dark, slightly arched eyebrows. His nose is prominent with a slightly upturned tip and a wider bridge. His lips are thin and firm. A full, neatly trimmed white-gray beard and mustache covers his lower face. He wears casual clothes. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23494,
+      "prompt": "A male-presenting individual, 50s-60s, fair skin with subtle signs of aging, round face with a softly angled jawline. Short, wavy, dark brown hair with strands of gray, full hairline, high forehead. Deep-set blue eyes, slightly downturned, beneath thin, light brown, neatly groomed eyebrows. A long, slender nose with a prominent bridge and pointed tip. Thin, pale lips with a slight natural pout. A neatly trimmed goatee, mostly white. Leaning against a brick wall in a quiet alley, casual clothes, three-quarter body, looking directly at the viewer with a neutral expression. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

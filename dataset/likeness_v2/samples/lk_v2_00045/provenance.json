@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:32.422708+00:00",
+  "type_a": true,
+  "action_scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 24279,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their fifties, of South Asian descent, with salt-and-pepper hair and soft green eyes, a relaxed expression. warm afternoon sunlight. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+    "prompt": "The exact same person as in the reference image, now sitting on the edge of a fountain in a public square, full-body shot, face visible. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 252661
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19045,
+      "prompt": "A male-presenting individual in their late 40s with warm olive skin and subtle smile lines. He has a squared jawline, a prominent aquiline nose with a slight bump, and wide-set, round, deep brown eyes beneath straight, bushy dark eyebrows. His lips are thin and straight, pressed together in a thoughtful expression. He has short, curly dark brown hair with strands of gray at the temples. A neatly trimmed full beard with patches of gray covers his lower face. The overall appearance suggests a South Asian heritage. He is sitting on the edge of a stone fountain in a sunny public square, a full-body shot, his face visible and turned slightly towards the viewer. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 36648,
+      "prompt": "A full-body shot of a South Asian male-presenting individual in his late 40s, with warm olive skin and subtle smile lines, sitting thoughtfully on the edge of a weathered stone fountain in a bustling European public square. He has a square jawline, a broad, short nose, and deep-set, round brown eyes with thin, straight eyebrows. His short, dark brown hair recedes slightly at the temples. His thin lips form a gentle, closed smile. He wears a short, neat beard and mustache. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16191,
+      "prompt": "Full-body portrait of a male individual in his late 40s, South Asian heritage, sitting casually on the edge of a sun-drenched stone fountain in a bustling public square. He has warm olive skin with light wrinkles around his eyes. His face is rectangular with a softer, slightly wider jawline. His short, wavy, salt-and-pepper hair is neat, swept back from a slightly receding hairline. His deep-set, round, warm brown eyes are crinkling at the corners. His thick, straight, dark eyebrows are set higher than average. His nose is aquiline with a prominent bridge and a slightly downturned tip. His thin, downturned lips are closed in a relaxed, gentle smile, revealing no teeth. He sports a full, neatly trimmed, salt-and-pepper beard that covers his chin, which is round and less prominent. He is looking slightly to the right, with a serene and contented expression. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

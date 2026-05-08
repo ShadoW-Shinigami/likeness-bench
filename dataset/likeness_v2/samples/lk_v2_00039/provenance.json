@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:58.708666+00:00",
+  "type_a": false,
+  "action_scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 16197,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their fifties, of mixed heritage, with salt-and-pepper hair and deep dark eyes, a relaxed expression. even studio lighting with a soft box. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15989,
+      "prompt": "A full-body shot of a person in their early 40s, presenting as male, with warm olive skin and subtle fine lines around the eyes, shopping at an outdoor farmer's market. He holds a paper bag filled with vegetables. He has a squarer face with a subtly softer jawline, short, wavy salt-and-pepper hair, mostly dark brown with significant graying, styled back from a receding hairline. His eyes are dark brown, slightly hooded, and narrowly set, beneath thick, dark, straight eyebrows. His nose is slightly upturned with a delicate bridge, and his mouth has thinner lips curved into a warm, closed-mouth smile. A neatly trimmed, salt-and-pepper beard and mustache cover the lower face. He has prominent cheekbones and a longer face than average. He is looking directly at the viewer with a friendly expression, head held straight. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20177,
+      "prompt": "Full-body shot of a person in their early 40s, presenting as male, with warm olive skin and subtle fine lines. They have a diamond-shaped face with a softer, slightly rounded jawline, and short, wavy, salt-and-pepper hair, mostly dark brown with significant graying, styled to the side. Their eyes are dark brown, deep-set, with a downward tilt, beneath thick, dark, straight eyebrows. The nose is slightly wider at the bridge with a subtly upturned tip, and the mouth features thin, straight lips with a neutral expression. A neatly trimmed, salt-and-pepper beard and mustache cover the lower face, and the overall appearance suggests a mixed heritage. The person is holding a paper bag filled with vegetables, looking off to the side, standing in an outdoor farmer's market. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21270,
+      "prompt": "A full-body shot of a person in their 40s, presenting as male, with warm olive skin, walking through an outdoor farmer's market, holding a brown paper bag brimming with fresh vegetables. They have a softer, slightly squarer jawline than oval, with short, wavy, salt-and-pepper hair, mostly dark brown with significant graying, styled back from a receding hairline. Their eyes are a striking hazel, a slightly rounder shape, and set closer together, beneath thick, dark, slightly arched eyebrows. The nose has a distinct bump on the bridge and a slightly upturned tip. Their mouth has thinner, more defined lips, curved into a warm smile. A neatly trimmed, salt-and-pepper beard and mustache cover the lower face. They are looking directly at the viewer with a friendly expression, head held straight. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21819,
+      "prompt": "A full-body shot of a person in their late 40s, presenting as male, with warm olive skin and light smile lines around the eyes, shopping at an outdoor farmer's market. They have a heart-shaped face with a moderately prominent jawline, and short, curly, salt-and-pepper hair, mostly dark brown with significant graying, styled casually. Their eyes are dark brown, slightly hooded, and set closer together, beneath thick, dark, straight eyebrows. The nose is aquiline with a narrow bridge, and the mouth features thin lips with an upturned corner, revealing a subtle, closed-mouth smile. A neatly trimmed, salt-and-pepper goatee covers the lower face. The person holds a paper bag filled with vegetables. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

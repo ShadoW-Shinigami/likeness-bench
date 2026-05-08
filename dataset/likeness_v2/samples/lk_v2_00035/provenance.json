@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:36.917961+00:00",
+  "type_a": true,
+  "action_scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 18947,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Sub-Saharan African descent, with a neat bun and soft green eyes, a soft smile. diffuse cloudy-day lighting. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+    "prompt": "The exact same person as in the reference image, now riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 254077
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18472,
+      "prompt": "A 40s-aged person, appearing male, with medium-deep skin, riding a bicycle on a sunlit city street. The person has a square-shaped face, a slightly narrower jawline than typical, a receding hairline with salt-and-pepper dark brown hair tied in a messy bun. Their eyes are round, hazel, and set closer together. They have a prominent aquiline nose with a pointed tip, and thin, dark, straight eyebrows. Their lips are thin, the upper and lower lips of similar thickness. A short, meticulously groomed full beard and mustache frame the mouth. They are wearing casual clothing, a full-body shot, with their face turned slightly towards the camera, a neutral expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 29102,
+      "prompt": "A 40-year-old person, appearing male, with medium-deep skin tone, a square jawline, and a slightly longer face. Dark brown hair, close-cropped and neat, with a receding hairline. Dark brown, straight eyebrows. Deep-set, round, dark brown eyes. A broad, slightly upturned nose. Thin, straight lips. A short, meticulously trimmed stubble beard. They are riding a bicycle on a sunlit city street, wearing casual clothing. Three-quarter body shot, face turned slightly towards the camera, a neutral expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22878,
+      "prompt": "A man in his early 40s, medium-deep skin tone, full-body shot, riding a bicycle on a sunlit city street. He has a square jawline, a prominent aquiline nose, and close-set, round brown eyes with a slight smile. His hair is dark brown, short and wavy, with some graying at the temples. His lips are thin and even. He has a neatly trimmed beard and mustache. Several small moles are visible on his neck. He is wearing casual clothing, and his face is turned slightly towards the camera. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

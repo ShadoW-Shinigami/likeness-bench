@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00006",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00006",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00006_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00006_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00006_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00006_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "60-70",
+      "ethnic_hint": "of mixed heritage",
+      "hair": "long curly hair",
+      "eyes": "amber eyes"
+    },
+    "description": "A male-presenting individual in their 50s with olive skin and visible fine lines around the eyes and forehead. The face is an oval shape with a defined jawline. Long, dark brown, tightly curled hair with significant graying at the roots and temples frames the face, extending past the shoulders. The eyes are almond-shaped and amber-brown, set slightly wide apart. Thick, dark eyebrows with some gray hairs are gently arched. The nose has a straight bridge and a rounded tip. The mouth has medium-full lips, and a short, neatly trimmed gray beard and mustache cover the chin and upper lip. The person has a warm, closed-mouth smile, looking directly at the viewer with a slight head tilt.",
+    "anchor": "Long, dark brown, tightly curled hair with significant graying.",
+    "action_scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+    "type_a_action_verify": null
+  }
+}

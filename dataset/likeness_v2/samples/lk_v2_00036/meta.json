@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00036",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00036",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00036_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00036_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4531,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00036_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5234,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00036_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "40-50",
+      "ethnic_hint": "of Northern European descent",
+      "hair": "short black hair",
+      "eyes": "amber eyes"
+    },
+    "description": "The subject is a woman in her 40s with fair skin, showing some fine lines around the eyes and forehead. Her face is oval-shaped with a defined jawline. She has short, dark brown hair, styled in a slightly messy pixie cut, with a natural hairline. Her eyes are a warm amber color, almond-shaped, and set slightly wide apart. Her eyebrows are medium thickness and gently arched. The nose is straight with a slightly rounded tip. Her lips are medium thickness with a natural, gentle curve. There are faint smile lines around her eyes and mouth. Her features suggest a mixed heritage. She has a soft, closed-mouth smile and her head is tilted slightly to the right.",
+    "anchor": "Woman with amber eyes and short dark hair.",
+    "action_scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+    "type_a_action_verify": null
+  }
+}

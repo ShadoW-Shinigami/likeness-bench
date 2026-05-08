@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:22.786485+00:00",
+  "type_a": false,
+  "action_scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 16761,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their early thirties, of Mediterranean descent, with long curly hair and warm brown eyes, a soft smile. natural light from a side window. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18991,
+      "prompt": "A male-presenting individual in their early 30s, carrying a yoga mat through a bustling city street, full-body shot. He has warm tan skin with a smooth texture. His face is heart-shaped with a slender jawline, and his dark brown, wavy hair is short and neatly styled, with a slight widow's peak. His wide-set, round eyes are dark brown, complemented by neatly trimmed, straight eyebrows. His nose is aquiline with a pointed tip, and his mouth has thin, well-defined lips. He has clean-shaven skin and a neutral, thoughtful expression, with his head held straight. His features suggest a South Asian or Latino background. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18581,
+      "prompt": "Full-body shot of a male-presenting individual in their 30s with rich olive skin, walking through a bustling city street, carrying a rolled yoga mat over one shoulder. He wears athletic shorts and a t-shirt. His face is clearly visible, featuring a square jawline, a prominent, slightly hooked nose, and deep-set, round dark brown eyes under straight, thick eyebrows. His lips are thin with a defined cupid's bow. His shoulder-length, dark brown wavy hair is styled loosely, with no visible hairline recession. He has clean-shaven skin and a neutral, thoughtful expression, looking directly forward. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15586,
+      "prompt": "Full body shot of a male-presenting individual in his early 30s with warm, tan skin, carrying a rolled yoga mat over his shoulder while walking down a bustling city street. He has a square jawline, a long, narrow nose with a prominent bridge, deep-set hazel eyes with a slight downturn at the outer corners, and thin lips. His dark, wavy, shoulder-length hair is pulled back into a casual knot, and he has a neatly trimmed beard. He is wearing athletic shorts and a t-shirt, looking directly at the camera with a neutral expression. The background is blurred, emphasizing the subject. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19728,
+      "prompt": "A male-presenting individual in their early 30s, carrying a yoga mat through a bustling city street, athletic clothes. He has a squarer face with a less prominent chin, and olive skin with a clear complexion. Dark brown eyes are rounder and set slightly wider apart, under straighter, darker eyebrows. His nose is broader at the bridge with a more defined tip, and his lips are thinner overall, with the upper and lower lips of similar fullness. His shoulder-length, dark brown hair is wavy and slicked back, without a receding hairline. He has light stubble, and a neutral, thoughtful expression, head held directly forward. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

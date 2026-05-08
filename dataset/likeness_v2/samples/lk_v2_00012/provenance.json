@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:30.144691+00:00",
+  "type_a": true,
+  "action_scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 17026,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of mixed heritage, with buzzed hair and sharp hazel eyes, a thoughtful look. even studio lighting with a soft box. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+    "prompt": "The exact same person as in the reference image, now waiting at a train platform with a small suitcase, urban setting, full-body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 282116
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 27812,
+      "prompt": "A person in their early 40s, appearing female, with warm olive skin and scattered freckles, standing on a bustling train platform, holding a small vintage suitcase, full-body shot. Her face is rectangular with a subtly rounded jaw and a prominent, slightly upturned nose. Her dark, close-cropped hair is buzzed short, revealing a high, sharp hairline. Her eyes are round and dark brown, set close together, with thick, straight eyebrows. Her lips are full with a distinct cupid's bow. She has a contemplative expression, looking straight ahead, with a neutral brow height and a slightly receding chin. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23178,
+      "prompt": "Full-body shot of a person in their 40s, appearing female, with warm olive skin and light freckles dusting her cheeks. Her face is slightly heart-shaped with a gently rounded jawline. She has very short, messy dark brown hair, with subtle waves and a natural hairline. Her eyes are round, deep brown, and set closer together than average, with delicate, straight eyebrows. Her nose is aquiline with a pointed tip, and her lips are full with a pronounced cupid's bow. She stands thoughtfully at a bustling urban train platform, a small, dark suitcase at her feet, gazing left with her head tilted slightly down. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15132,
+      "prompt": "A person in their late 30s, appearing female, with warm olive skin and subtle sun-kissed cheeks, no visible freckles. Their face is heart-shaped with a softly tapered jawline. Hair is a close-cropped pixie cut, dark auburn, with a slightly receding hairline at the temples and a medium-height forehead. Deep-set, round hazel eyes, set slightly closer together, with thick, straight, dark brown eyebrows. The nose has a gentle upturn at the tip and a slightly wider bridge, while the lips are full with a well-defined cupid's bow. They are standing at a busy urban train platform, holding a small leather suitcase, looking straight ahead with a neutral expression. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

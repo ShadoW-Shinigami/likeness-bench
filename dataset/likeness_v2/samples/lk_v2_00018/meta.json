@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00018",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00018",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00018_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5625,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00018_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.4219,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00018_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": null
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5078,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00018_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "C",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "50-60",
+      "ethnic_hint": "of Mediterranean descent",
+      "hair": "short black hair",
+      "eyes": "light blue eyes"
+    },
+    "description": "A person appearing in their 40s-50s with feminine presentation has olive skin with some fine lines around the eyes and forehead. Their face is oval with a defined jawline. Dark, short, wavy hair is styled in a bob, with a natural hairline. The eyes are bright blue and almond-shaped, set moderately wide apart. Eyebrows are medium thickness and arched. The nose has a straight bridge and a slightly rounded tip. Lips are medium thickness with a natural shape. There are no prominent distinguishing features. The person appears to have features often associated with Mediterranean or Middle Eastern ancestry. They have a neutral expression, looking directly at the viewer with their head held straight.",
+    "anchor": "Bright blue almond-shaped eyes.",
+    "action_scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features and proportions are consistent across both images.",
+      "cost_usd": 0.0002206,
+      "elapsed_ms": 4358
+    }
+  }
+}

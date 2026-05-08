@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00015",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00015",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00015_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00015_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00015_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00015_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "40-50",
+      "ethnic_hint": "of Northern European descent",
+      "hair": "short black hair",
+      "eyes": "deep dark eyes"
+    },
+    "description": "The subject is a female presenting individual in their 40s with fair skin and visible fine lines around the eyes and forehead. Their face is an oval shape with a softly defined jawline. They have short, dark brown hair styled in a pixie cut, with a natural hairline. Their eyes are dark brown, almond-shaped, and set slightly wide apart. Their eyebrows are medium thickness and gently arched. The nose has a straight bridge and a slightly rounded tip. The mouth features medium-thick lips with a natural, unsmiling shape. No distinguishing features like freckles or moles are prominently visible. The individual has a neutral expression, looking directly at the viewer, with their head held straight.",
+    "anchor": "Woman with short dark hair and neutral expression.",
+    "action_scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+    "type_a_action_verify": null
+  }
+}

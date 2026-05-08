@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:08.962691+00:00",
+  "type_a": false,
+  "action_scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 28248,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Middle Eastern descent, with long curly hair and light blue eyes, a relaxed expression. warm afternoon sunlight. a textured beige wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18785,
+      "prompt": "Full-body shot of a man in his early 40s, sitting on the edge of a classical stone fountain in a bustling public square, facing forward with a warm, subtle smile. He has a warm olive complexion, subtle fine lines around the eyes, and a slightly longer, more rectangular face with moderately prominent cheekbones and a strong, square jawline. His dark brown, medium-length, wavy hair is full and lightly tousled, with no visible recession. His eyes are deep-set, dark brown, and round, with thick, straight, dark eyebrows. His nose is aquiline with a narrow bridge. His lips are thin and straight. He has a full, salt-and-pepper beard and mustache, neatly trimmed. His features suggest a Mediterranean heritage. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 32646,
+      "prompt": "A man in his early 40s sits casually on the edge of a classical stone fountain in a bustling European public square. He has a warm, olive complexion with subtle sun-kissed undertones and a few fine lines around his eyes. His face is rectangular with a softly angled jawline and prominent cheekbones. His dark brown hair is short, tightly coiled curls, with a natural, slightly messy part. His eyes are a striking light blue, deeply set, and round. His eyebrows are thick and dark, with a flatter, straighter shape. His nose is aquiline with a narrow bridge. His lips are thinner with a defined philtrum. He sports a full, well-groomed beard and mustache, dark brown with noticeable salt-and-pepper graying throughout. He has a gentle, thoughtful expression, gazing slightly off-camera. Full body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15177,
+      "prompt": "A full-body shot of a man in his 40s with olive skin, a square"
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22567,
+      "prompt": "A man in his early 40s with a warm, medium-brown complexion, a strong square jawline, a broad nose with a slightly upturned tip, and hooded, deep-set hazel eyes. His dark, straight eyebrows are thin and run horizontally, and his high forehead is framed by a low, slightly messy hairline. His thin lips form a relaxed, neutral expression. He has a neatly trimmed dark brown beard and mustache with subtle flecks of gray around the temples. He is sitting on the edge of a fountain in a bustling public square, a full-body shot with his face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

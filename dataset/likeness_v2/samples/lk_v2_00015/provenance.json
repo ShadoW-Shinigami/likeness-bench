@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:47.899575+00:00",
+  "type_a": false,
+  "action_scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 19175,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of Northern European descent, with short black hair and deep dark eyes, a calm, neutral expression. soft daylight from a north-facing window. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23008,
+      "prompt": "A full-body shot of a female-presenting individual in their early 40s, fair skin, with a slightly angular jawline and a heart-shaped face, sitting casually on the edge of a large public fountain. She has short, dark brown hair with soft waves, styled in a side part. Her eyes are light hazel, slightly downturned, and set closer together than average. Her nose has a delicate, upturned bridge and a pointed tip. Her lips are full and slightly parted, showing a hint of a gentle, bemused smile. She has a neutral, contemplative expression, looking off to the side. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 13965,
+      "prompt": "A female-presenting individual in their 40s with fair skin and subtle laugh lines. She has a heart-shaped face with a moderately strong, angular jawline. Her short, dark brown hair is styled in a slightly tousled bob with a slightly higher hairline. She has dark brown, round eyes with a noticeable epicanthic fold, set closer together than average. Her eyebrows are thin and relatively straight. Her nose has a slightly upturned tip and a broader bridge. Her mouth features thin, well-defined lips with a faint, closed-lip smile. She sits casually on the edge of a large stone fountain in a bustling public square, her body slightly turned but her face clearly visible and looking directly at the viewer. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21674,
+      "prompt": "A female-presenting individual in her 40s with fair skin and subtle laugh lines, a heart-shaped face with a moderately strong, angular jawline. Short dark brown hair with soft, swept-back bangs. Light brown eyes, large and round, set close together. Eyebrows are thin and straight. A small, upturned nose with a narrow bridge. Thin, downturned lips, slightly parted. Sitting on the edge of a fountain in a bustling public square, three-quarter body shot, looking directly at the viewer with a contemplative expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16561,
+      "prompt": "Full body shot of a female-presenting individual in their early 40s sitting casually on the edge of a large public square fountain, facing forward. She has fair skin with subtle laugh lines visible at the corners of her eyes. Her face is a soft heart shape with a slightly more pointed chin than average, and her jawline is gently rounded but firm. She has short, dark brown hair in a close-cropped pixie cut with a slightly swept fringe. Her eyes are a striking blue, round, and set closer together than average. Her eyebrows are medium thickness and gently curved. Her nose has a delicate, slightly upturned bridge and a small, defined tip. Her lips are full with a well-defined cupid's bow, relaxed into a neutral expression. Her head is held straight, looking directly at the viewer. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

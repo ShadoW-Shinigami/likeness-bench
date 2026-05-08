@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00030",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00030",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00030_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5391,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00030_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00030_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4453,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00030_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "40-50",
+      "ethnic_hint": "of Middle Eastern descent",
+      "hair": "long curly hair",
+      "eyes": "light blue eyes"
+    },
+    "description": "This individual appears to be a male in his 40s. He has an olive skin tone with some visible fine lines around the eyes and forehead. His face is oval with a defined jawline. His hair is dark brown, medium length, and very curly, with a receding hairline visible at the temples. His eyes are a striking light blue, almond-shaped, and set slightly wide apart. His eyebrows are thick and dark, with a natural, slightly arched shape. His nose is straight with a rounded tip. His lips are medium thickness with a well-defined cupid's bow. He has a full beard and mustache, dark brown with significant graying, especially around the chin and jawline. His features suggest a Mediterranean or Middle Eastern background. He has a subtle, pleasant smile and is looking directly forward with his head held straight.",
+    "anchor": "Striking light blue eyes",
+    "action_scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+    "type_a_action_verify": null
+  }
+}

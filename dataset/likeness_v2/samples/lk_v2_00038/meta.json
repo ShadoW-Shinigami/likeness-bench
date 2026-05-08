@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00038",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00038",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00038_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5078,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00038_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": null
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4531,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00038_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00038_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "D",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "50-60",
+      "ethnic_hint": "of Sub-Saharan African descent",
+      "hair": "straight blonde hair",
+      "eyes": "soft green eyes"
+    },
+    "description": "This individual appears to be a male in their 40s to 50s, with fair skin showing some fine lines around the eyes and forehead. The face is oval with a defined jawline. Hair is medium-length, straight, and styled with a side part, showing a blend of light blonde and gray, with a slightly receding hairline at the temples. The eyes are almond-shaped and set, with a striking light green color. Eyebrows are medium thickness and relatively straight. The nose has a straight bridge and a slightly rounded tip. Lips are medium thickness and well-defined. A neatly trimmed beard and mustache, predominantly gray, covers the chin and upper lip. The person has a neutral expression and faces directly forward.",
+    "anchor": "light blonde and gray hair with green eyes",
+    "action_scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye spacing, nose shape, and mouth, are consistent.",
+      "cost_usd": 0.0002356,
+      "elapsed_ms": 5127
+    }
+  }
+}

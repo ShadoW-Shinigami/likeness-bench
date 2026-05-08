@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00012",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00012",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4531,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00012_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5469,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00012_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": null
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5469,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00012_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00012_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "D",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "40-50",
+      "ethnic_hint": "of mixed heritage",
+      "hair": "buzzed hair",
+      "eyes": "sharp hazel eyes"
+    },
+    "description": "A person in their 40s, appearing female, has olive skin with visible freckles across the nose and cheeks, and some fine lines on the forehead. Their face is oval with a defined jawline. The hair is very short, buzzed, dark brown, and closely cropped to the scalp, revealing a natural hairline. The eyes are almond-shaped and amber-brown, set slightly wide apart, with thin, dark, arched eyebrows. The nose has a straight bridge and a slightly rounded tip, while the lips are medium-thick with a natural, soft curve. The overall impression is of a person with a thoughtful expression, looking off to the right, with their head angled slightly down and to the right.",
+    "anchor": "Buzzed dark brown hair",
+    "action_scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye spacing, nose shape, and mouth, are consistent across both images.",
+      "cost_usd": 0.0002431,
+      "elapsed_ms": 6689
+    }
+  }
+}

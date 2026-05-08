@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00043",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00043",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00043_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": null
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00043_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4766,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00043_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5469,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00043_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "A",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "40-50",
+      "ethnic_hint": "of Sub-Saharan African descent",
+      "hair": "a neat bun",
+      "eyes": "light blue eyes"
+    },
+    "description": "The individual is a male-presenting person in their 40s with deep brown skin and a smooth texture, though some fine lines are visible on the forehead and around the eyes. Their face is oval with a defined jawline. Dark brown dreadlocks are pulled back into a bun, revealing a slightly receding hairline. The eyes are a striking light blue, almond-shaped, and set widely apart.\n\nThick, dark eyebrows have a gentle arch. The nose is broad with a straight bridge and a rounded tip. Lips are medium-full with a well-defined cupid's bow. A neatly trimmed dark beard and mustache cover the chin and upper lip. The person has a warm skin tone with hints of golden undertones. They are looking to the left with a slight smile, head tilted slightly upwards.",
+    "anchor": "Light blue eyes with dark skin",
+    "action_scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye spacing, nose shape, and mouth, are consistent between the two images.",
+      "cost_usd": 0.0002456,
+      "elapsed_ms": 5119
+    }
+  }
+}

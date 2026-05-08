@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:40.903669+00:00",
+  "type_a": false,
+  "action_scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 17624,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of mixed heritage, with shoulder-length brown hair and warm brown eyes, a soft smile. diffuse cloudy-day lighting. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20300,
+      "prompt": "A woman in her early 30s with warm olive skin and a light dusting of freckles, holding a paper bag filled with vegetables at an outdoor farmer's market. She has a square jawline, a long, slender nose, slightly upturned eyes, and thin lips, with thick, dark, straight eyebrows, and a high forehead beneath a slightly receding hairline revealing long, wavy dark brown hair. She is smiling softly, looking directly at the viewer, full body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16148,
+      "prompt": "Female in her 30s, olive skin, scattering of small freckles. Long, dark brown hair with subtle lighter highlights and some visible gray strands at the roots, styled in loose waves. Face clearly visible, with a square jawline, deep-set round eyes, a long and narrow nose, and thin lips. She has a warm, closed-mouth smile, head angled slightly to her right. Shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17790,
+      "prompt": "A woman in her early 30s with warm olive skin and a few sun-kissed freckles, standing full-body at an outdoor farmer's market, holding a paper bag overflowing with fresh vegetables. Her face is a gentle heart shape with a softly angular jawline. Her long, wavy dark brown hair, with subtle auburn undertones and a few silvery strands, cascades over her shoulders. She has a high forehead and thick, straight eyebrows. Her dark brown eyes are slightly downturned and close-set, with a soft crinkle at the corners as she offers a warm, closed-mouth smile. Her nose is slender with a slightly aquiline bridge, and her lips are full with a less defined cupid's bow. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19443,
+      "prompt": "A full-body shot of a woman in her late 30s with warm olive skin, a few subtle sunspots on her cheeks, and long, wavy dark brown hair with lighter undertones and some gray at the temples, shopping at an outdoor farmer's market. She has a heart-shaped face with a prominent, angular jawline, a gentle, small closed-mouth smile, and her head is tilted slightly to her left. Her eyes are large, round, dark brown, and set close together, with fine laugh lines around the outer corners. She has thin, straight eyebrows. Her nose is aquiline with a narrow bridge and pointed tip. Her lips are thin with a less defined cupid's bow. She is holding a brown paper bag overflowing with colorful fresh vegetables. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

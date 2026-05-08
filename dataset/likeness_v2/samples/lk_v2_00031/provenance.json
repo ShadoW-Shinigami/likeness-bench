@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:14.268504+00:00",
+  "type_a": false,
+  "action_scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15763,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their early thirties, of Mediterranean descent, with straight blonde hair and sharp hazel eyes, a calm, neutral expression. natural light from a side window. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 14480,
+      "prompt": "A female presenting individual in her early 30s with fair skin, leaning against a weathered brick wall in a quiet alley, wearing a casual denim jacket. She has long, wavy, ash-blonde hair with subtle highlights, parted down the middle and framing her face. Her eyes are large and round, a striking blue, set close together. Her eyebrows are thick and straight. Her nose is narrow with a prominent bridge and a pointed tip. Her lips are full with a less defined cupid's bow. Her face is heart-shaped, with high, prominent cheekbones and a slightly shorter face length. She has no freckles. Her expression is calm, looking directly at the viewer, with her head tilted slightly to the right. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20836,
+      "prompt": "A female-presenting individual in her 30s, fair skin, leaning against a weathered brick wall in a quiet alley, casual clothes, three-quarter body shot. She has a heart-shaped face with a softer, less defined jawline, and high, prominent cheekbones. Her long, wavy, blonde hair with darker roots is parted on the right side, flowing over her shoulders. Her eyes are round, blue, and set slightly wider apart. Her eyebrows are thin and gently curved. Her nose is narrower with a slightly aquiline bridge and a pointed tip. Her lips are full with a less defined cupid's bow. A neutral expression, head angled slightly to the right. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16626,
+      "prompt": "Photographic portrait of a female-presenting individual in her early 30s, fair skin, light wrinkles around eyes, leaning against a brick wall in a quiet alley, wearing casual clothes, three-quarter body shot. She has a heart-shaped face with a softer, wider jawline, medium-length wavy blonde hair with darker roots, side parted, falling over one shoulder. Her eyes are large, round, and blue, set slightly wider apart. Her eyebrows are soft and straight. Her nose is slightly upturned with a narrow bridge. Her lips are full with a less defined cupid's bow. A few scattered freckles across her nose and cheeks. She has a gentle smile, and her head is tilted slightly to the right. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 28248,
+      "prompt": "A 30-something female presenting individual with fair skin, a square jawline, and a strong chin. Her hair is short, wavy blonde with subtle highlights, side-parted and tucked behind one ear. Her eyes are large, round, and blue, set wide apart, with a slight upward tilt. Her eyebrows are thick and straight. Her nose is long and narrow with a pointed tip. Her lips are full with a less defined cupid's bow. She has a smooth complexion with no visible freckles. Her expression is thoughtful, and her head is tilted slightly to the right. She is leaning casually against a weathered brick wall in a quiet alley, wearing a simple t-shirt and jeans. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:00.668978+00:00",
+  "type_a": true,
+  "action_scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15302,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their fifties, of mixed heritage, with long curly hair and soft green eyes, a thoughtful look. even studio lighting with a soft box. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+    "prompt": "The exact same person as in the reference image, now cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 232454
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22763,
+      "prompt": "A person in their late 40s to early 50s, appearing male, with warm olive skin and subtle smile lines around the eyes. Their face is a slightly squarer oval shape, with a softer jawline than the original. Long, dark grey hair, loosely wavy and reaching the shoulders, with a natural hairline. The eyes are rounder and hazel, set closer together, beneath full, dark, straight eyebrows. The nose has a slightly concave bridge and a prominent, slightly upturned tip. The lips are fuller with a less defined cupid's bow. A neatly trimmed, salt-and-pepper full beard covers the chin and jaw. The person is cooking at a stovetop in a brightly sunlit kitchen, wearing a simple linen apron, a three-quarter body shot with their face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17774,
+      "prompt": "A person in their 50s, appearing male, with warm, medium-toned skin and subtle crow's feet, cooking at a stovetop in a brightly sunlit kitchen, wearing a canvas apron. The face is heart-shaped with high, prominent cheekbones and a slightly softer jawline. Long, dark grey, wavy hair with silver streaks, pulled back loosely, leaving some strands framing the face, with minimal temple recession. Deep-set, round, hazel eyes are moderately close-set, with full, dark, straight eyebrows. The nose has a slightly upturned tip and a broader bridge. The lips are thin with a less defined cupid's bow. A short, neat, grey beard covers the jawline and chin. The expression is one of engaged focus, looking down at the pan. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 27888,
+      "prompt": "A person in their late 40s to early 50s, appearing male, with warm olive skin exhibiting subtle smile lines near the eyes and forehead. Their face is a squarish oval with a slightly wider jawline. Long, dark grey hair with silver streaks, loosely waved, reaches the shoulders, showing a slight recession at the temples. The eyes are downturned almond-shaped and amber, set a bit closer together, with thick, dark, straight eyebrows. The nose has a slightly concave bridge and a broader, rounded tip. The lips are full, with a less defined cupid's bow. A short, meticulously trimmed salt-and-pepper stubble beard covers the jawline and chin. The person is cooking at a stovetop in a sunlit kitchen, wearing a canvas apron, with a neutral and focused expression. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

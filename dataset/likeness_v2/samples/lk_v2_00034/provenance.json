@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:27.778267+00:00",
+  "type_a": false,
+  "action_scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 34955,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Sub-Saharan African descent, with straight blonde hair and warm brown eyes, a soft smile. even studio lighting with a soft box. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19594,
+      "prompt": "A man in his late 40s with deep brown skin and light laugh lines around his eyes. He has a squarer face with a slightly wider jawline than average, and a prominent chin. His hair is very short and tightly cropped, dyed a vibrant platinum blonde, with a natural hairline. His eyes are dark brown, distinctly rounder than almond-shaped, and set closer together. His eyebrows are thick and straight, giving him a more intense look. His nose is aquiline with a narrow bridge and a sharp, downward-pointing tip. His lips are thin with a clear, defined Cupid's bow. He has a neatly trimmed, salt-and-pepper goatee and mustache. He stands at a busy bar holding a cocktail glass, a faint, closed-mouth smirk playing on his lips, his head turned slightly to the right. Medium full-body shot, soft warm lighting. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 14558,
+      "prompt": "A man in his 40s-50s with deep brown skin and some fine lines around the eyes and forehead, a square jawline, a prominent, slightly aquiline nose, close-set, round dark brown eyes with medium thickness, straight eyebrows, and thin, straight lips. His hair is very short, tightly cropped, and dyed a bright, light blonde, with a natural hairline. He has a short, salt-and-pepper beard and mustache. He has a gentle, closed-mouth smile and his head is angled slightly to the left. He is standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15385,
+      "prompt": "A man in his late 40s with rich, dark brown skin, a square jawline, pronounced cheekbones, and noticeable laugh lines around his eyes. He has a receding hairline with tightly cropped, ash blonde hair. His eyes are dark, deep-set, and round, with thick, straight eyebrows. His nose is aquiline with a pointed tip. His lips are thin with a defined Cupid's bow. He has a neatly trimmed dark brown mustache and goatee. He is standing at a busy bar holding a whiskey glass, a slight smirk playing on his lips, head tilted slightly to the right, in a three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16763,
+      "prompt": "A man in his late 40s with deep brown skin and light wrinkles around the eyes and forehead. His face is heart-shaped with a slightly softer jawline. His hair is very short, tightly cropped, and dyed a bright, light blonde, with a natural hairline. His eyes are dark brown, round, and set closer together. His eyebrows are thin and relatively straight. His nose has a narrow bridge and a slightly upturned tip. His lips are thin with a prominent cupid's bow. He has a short, salt-and-pepper beard and mustache. His features suggest a mixed heritage. He has a subtle, closed-mouth smile and his head is angled slightly to the left. He is standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

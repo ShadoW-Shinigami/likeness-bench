@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:02:06.111714+00:00",
+  "type_a": false,
+  "action_scenario": "sitting on a wooden bench reading a paperback book, late afternoon light, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 22165,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their mid-twenties, of Northern European descent, with buzzed hair and amber eyes, a soft smile. warm afternoon sunlight. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 47136,
+      "prompt": "A young person in their 20s, appearing female, with clear fair skin and a light dusting of freckles across the bridge of the nose. They have a heart-shaped face with a delicate, pointed jawline. Their hair is short, textured pixie cut, light blonde with slightly darker roots, swept to one side. The eyes are downturned almond shape, a vibrant hazel color, set slightly closer together. Eyebrows are thin, softly arched, and well-groomed. The nose is dainty, slightly upturned with a narrow bridge. Lips are full with a subtle, natural curve. They are sitting on a weathered wooden bench, engrossed in reading a paperback book, with a thoughtful, serene expression. Late afternoon sunlight casts long shadows, illuminating the scene. Full-body shot, showing the person from head to toe. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17397,
+      "prompt": "A person in their early 20s, appearing female, with fair skin and a scattering of tiny freckles across the bridge of the nose. The face is heart-shaped with a more angular jawline, a slightly longer face, and prominent cheekbones. Their hair is very short, buzz-cut style, light golden blonde, and appears fine-textured, with a natural hairline. The eyes are rounder and a warm hazel color, set slightly closer together. Eyebrows are slender, well-groomed, and gently curved. The nose is slightly aquiline with a pointed tip. Lips are thin with a less defined cupid's bow. The person has a subtle, closed-mouth smirk, with the head tilted slightly to the right, conveying a thoughtful and slightly mischievous expression. They are sitting on a wooden bench reading a paperback book in late afternoon light, full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 14921,
+      "prompt": "A young woman in her 20s with fair skin, a few faint freckles across her nose and cheeks. Her face is heart-shaped with a slightly pointed chin and a soft jawline. She has very short, buzz-cut style, light blonde hair with a natural hairline. Her eyes are round, a warm amber color, and set slightly wide apart. Her eyebrows are thin, softly arched. Her nose is aquiline with a narrow bridge. Her lips are full with a less defined cupid's bow, curved into a relaxed closed-mouth smile. She is sitting on a wooden bench, head tilted slightly to the right, reading a paperback book in late afternoon light. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18382,
+      "prompt": "A young adult, appearing female, with clear, pale skin, a square jawline, a short, wavy platinum blonde pixie cut that frames a high forehead, widely set, deep-set blue eyes, thick, straight eyebrows, a prominent aquiline nose, and full, pouty lips. She is seated on a wooden bench, engrossed in a paperback book, body angled slightly away, head tilted gently to the right, a neutral, contemplative expression on her face. Three-quarter body shot, late afternoon sun casting long shadows. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

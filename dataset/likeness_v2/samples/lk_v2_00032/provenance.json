@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:18.316128+00:00",
+  "type_a": false,
+  "action_scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 20450,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their mid-twenties, of East Asian descent, with buzzed hair and soft green eyes, a relaxed expression. soft daylight from a north-facing window. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19948,
+      "prompt": "A male in his late 20s, olive skin with visible pores, an angular, heart-shaped face with a prominent chin. Very short dark brown buzz-cut hair, natural hairline. Narrow, deep-set round brown eyes, thick arched eyebrows. A slightly upturned nose with a broad bridge. Full, bow-shaped lips with a subtle, open-mouthed smile. Light stubble on the chin and upper lip, a few faint freckles across the nose. Playing with a golden retriever in a sunlit backyard, throwing a ball. Full-body shot, direct gaze. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22093,
+      "prompt": "Full-body shot of a young East Asian man in his early 30s, olive skin, playing with a golden retriever in a sun-drenched backyard. He has a square jawline, a slightly longer, lean face, prominent cheekbones, and dark, buzz-cut hair. His eyes are round and dark brown, with a slight upward tilt, and his eyebrows are thin and arched. He has a broad, slightly upturned nose, and full, heart-shaped lips forming a wide, joyful smile. Light stubble covers his chin and upper lip. He's looking down at the dog with affection, holding a tennis ball. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19784,
+      "prompt": "Full-body shot of a man in his early 30s with olive skin, playing with a dog and a ball in a sunny backyard. He has a broad jawline and a slightly wider face, with a prominent, slightly upturned nose. His eyes are deep-set, with a noticeable epicanthic fold and are closer together, a warm brown color. His lips are full and even, forming a joyful, open-mouthed smile. His hair is very short, dark brown, and buzz-cut, with visible stubble on his chin and upper lip. Small moles and freckles dot his cheeks. He is looking towards the viewer, excited and engaged with the dog. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16212,
+      "prompt": "A full-body shot of a young East Asian man in his early 30s with healthy olive skin, a slightly wider, squarer jawline, a short dark brown buzz cut with a slightly receding hairline, and thick, arched eyebrows. His eyes are rounder, dark brown, and closely set. He has a slightly hooked nose and thin lips that are curved into a wide, open-mouthed grin. He has light stubble, a high forehead, and a few scattered moles on his cheeks. He is playing with a dog in a sunlit backyard, throwing a ball. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00027",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00027",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00027_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.3906,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00027_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00027_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00027_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "50-60",
+      "ethnic_hint": "of Latin American descent",
+      "hair": "long curly hair",
+      "eyes": "sharp hazel eyes"
+    },
+    "description": "The subject is a male-presenting individual in their 40s, with olive skin showing some fine lines around the eyes. Their face is oval-shaped with a defined jawline. Dark brown, tightly curled hair, shoulder-length, frames the face, with a receding hairline visible at the temples. The eyes are almond-shaped and set, with a warm hazel color. Thick, dark eyebrows have a natural, slightly arched shape. The nose is straight with a defined bridge and a rounded tip. The lips are medium-thick with a neutral shape. A full beard and mustache, salt-and-pepper gray, covers the lower face. The subject has a direct gaze, with the head held straight, facing forward.",
+    "anchor": "male with curly dark brown hair and salt-and-pepper beard",
+    "action_scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+    "type_a_action_verify": null
+  }
+}

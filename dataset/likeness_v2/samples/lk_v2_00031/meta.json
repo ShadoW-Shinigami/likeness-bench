@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00031",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00031",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00031_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00031_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00031_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00031_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "30-40",
+      "ethnic_hint": "of Mediterranean descent",
+      "hair": "straight blonde hair",
+      "eyes": "sharp hazel eyes"
+    },
+    "description": "The subject is a female presenting individual in their 30s with fair skin, showing minimal texture. Her face is oval with a defined jawline. She has long, straight, blonde hair with darker roots, parted on the left side, falling over her shoulders. Her eyes are almond-shaped and hazel, set moderately apart. Her eyebrows are medium thickness and arched. The nose has a straight bridge and a slightly rounded tip. Her lips are medium thickness with a well-defined cupid's bow. She has a few faint freckles across her nose and cheeks. Her expression is neutral, and her head is angled slightly to the left.",
+    "anchor": "Fair-skinned woman with long blonde hair and hazel eyes.",
+    "action_scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+    "type_a_action_verify": null
+  }
+}

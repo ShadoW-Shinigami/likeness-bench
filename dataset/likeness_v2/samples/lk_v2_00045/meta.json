@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00045",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00045",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4766,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00045_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00045_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5234,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00045_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00045_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+      "variation_hint": null
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "C",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "50-60",
+      "ethnic_hint": "of South Asian descent",
+      "hair": "salt-and-pepper hair",
+      "eyes": "soft green eyes"
+    },
+    "description": "A male-presenting individual in their 40s-50s has olive skin with some fine lines around the eyes and forehead. Their face is oval with a defined jawline. The hair is short, wavy, and salt-and-pepper gray, styled with volume on top and a natural hairline. The almond-shaped eyes are a striking light green, set slightly deep. Thick, dark, slightly arched eyebrows frame the eyes. The nose is straight with a rounded tip and a well-defined bridge. The mouth has medium-full lips, curved into a broad smile revealing white teeth. A neatly trimmed, salt-and-pepper beard and mustache cover the lower face. The overall appearance suggests a South Asian heritage. The expression is one of gentle happiness, with the head turned slightly to the left and angled slightly upwards.",
+    "anchor": "Striking light green eyes.",
+    "action_scenario": "sitting on the edge of a fountain in a public square, full-body shot, face visible",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye shape, nose, and mouth, are consistent.",
+      "cost_usd": 0.0002331,
+      "elapsed_ms": 2603
+    }
+  }
+}

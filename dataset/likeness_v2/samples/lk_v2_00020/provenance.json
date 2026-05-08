@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:19.273193+00:00",
+  "type_a": true,
+  "action_scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 17154,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of Middle Eastern descent, with a tied-back ponytail and light blue eyes, a soft smile. diffuse cloudy-day lighting. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+    "prompt": "The exact same person as in the reference image, now riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 240961
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21992,
+      "prompt": "A full-body shot of a young adult female, 30s, riding a bicycle on a sunlit city street, turning her face slightly towards the camera, fair skin, minimal pores, high cheekbones, strong, angular jawline, dark brown hair pulled back with a few strands framing her face, high hairline, thick, straight eyebrows, striking green-hazel eyes, deep-set and closer together, upturned nose, full lips, natural unsmiling expression, no freckles, no moles. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21648,
+      "prompt": "A young woman in her early 30s with warm olive skin, a heart-shaped face, and a more angular jawline, riding a bicycle on a sunlit city street. Her dark brown hair is styled in a loose bun, revealing a slightly higher forehead and thicker, straighter eyebrows. She has captivating dark brown eyes, rounder than almond, and set closer together. Her nose is aquiline with a defined bridge, and her lips are full and pillowy, with a more pronounced Cupid's bow. A few faint sunspots are visible on her cheekbones, and she has a small beauty mark above her upper lip. She wears casual clothing, with her head turned slightly towards the camera, a relaxed, open-mouthed smile. Full-body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15310,
+      "prompt": "A female-presenting individual in her early 30s, olive skin, riding a bicycle on a sunlit city street, casual clothing, three-quarter body shot, face turned slightly toward the camera. Her face is heart-shaped with a more angular jawline, a higher, more arched brow, and her chin is more pointed. Her dark brown hair is pulled back into a low ponytail with natural wispy strands. She has striking blue-green eyes, rounder in shape and closer set, with thicker, straight eyebrows. Her nose is aquiline with a sharp bridge, and her lips are thinner with a distinct cupid's bow. Numerous small, light brown freckles are scattered across her nose and cheeks. She has a subtle, closed-mouth smile. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00042",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00042",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5078,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00042_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4531,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00042_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00042_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00042_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "30-40",
+      "ethnic_hint": "of Latin American descent",
+      "hair": "tight coily hair",
+      "eyes": "amber eyes"
+    },
+    "description": "This individual appears to be in their 30s and presents as male. Their skin is olive-toned with some visible pores and fine lines around the eyes. The face is oval with a defined jawline. Dark brown, tightly coiled, short curly hair frames the face, with a slightly receding hairline at the temples.\n\nThe eyes are almond-shaped and a striking amber-brown color, set moderately apart. Thick, dark, slightly arched eyebrows define the brow. The nose is straight with a broad bridge and a rounded tip. The mouth has medium-full lips with a gentle upward curve, forming a subtle smile. A short, dark, well-groomed beard and mustache cover the lower face. The overall impression suggests a blend of features often associated with Mediterranean or Middle Eastern descent. The head is angled slightly to the right, and the expression is pleasant and engaging.",
+    "anchor": "Amber-brown eyes and tight dark curls.",
+    "action_scenario": "waiting at a train platform with a small suitcase, urban setting, full-body shot",
+    "type_a_action_verify": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:57.277463+00:00",
+  "type_a": true,
+  "action_scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 24164,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Mediterranean descent, with a tied-back ponytail and amber eyes, a thoughtful look. warm afternoon sunlight. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "carrying a yoga mat through a city street, athletic clothes, full-body shot",
+    "prompt": "The exact same person as in the reference image, now carrying a yoga mat through a city street, athletic clothes, full-body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 244882
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22230,
+      "prompt": "Full-body shot of a man in his early 40s, olive skin, short, neat dark brown hair with a subtle wave, no receding hairline, a full dark brown beard and mustache with prominent graying around the chin, carrying a yoga mat while walking purposefully down a bustling city street. His face is rectangular with a softer, less defined jawline than average, a short, wide nose with a flat bridge, and his eyes are round and deep-set, a warm brown color, with straight, slightly thinner dark eyebrows. His lips are thin and straight, with a neutral expression. He is wearing athletic shorts and a t-shirt. The man looks directly at the viewer, head held level. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 19759,
+      "prompt": "A man in his 40s, olive skin, fine lines around the eyes, carrying a yoga mat through a bustling city street, athletic wear, full body shot. He has a square jawline, a short, upturned nose, and narrow-set, round brown eyes under straight, dark eyebrows. His dark, wavy hair is styled in a short, messy cut, with a slight widow's peak. His lips are thin and slightly downturned. A neatly trimmed goatee and mustache, dark brown with some gray, frames his mouth. He is looking straight ahead with a serene expression. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18684,
+      "prompt": "A male in his late 30s, olive skin with light laugh lines around the eyes. His face is heart-shaped, with a softer, gently rounded jawline. Dark brown, slightly curly hair, close-cropped on the sides and swept back from a moderate hairline. His eyes are downturned with a warm hazel color, set under thinner, straight dark eyebrows. His nose is slender with a slight upward tilt, and his lips are full and well-defined with a relaxed, soft curve. A medium-length, neatly trimmed dark brown beard without noticeable graying covers his lower face. He is looking straight ahead with a thoughtful expression, head held level. He carries a lavender yoga mat over his shoulder, wearing fitted athletic shorts and a t-shirt, walking on a busy city sidewalk with tall buildings in the background. Full-body shot, natural light. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

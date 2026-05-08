@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:01:13.089935+00:00",
+  "type_a": false,
+  "action_scenario": "leaning against a brick wall in a quiet alley, casual clothes, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 18066,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their sixties, of Sub-Saharan African descent, with long curly hair and light blue eyes, a calm, neutral expression. natural light from a side window. a textured beige wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18998,
+      "prompt": "A woman in her early 60s, warm medium-deep skin tone, leaning against a brick wall in a quiet alley, casual clothes, three-quarter body shot. She has a square face with a strong, angular jawline, a narrower forehead, and a slightly receding hairline. Her hair is a striking mix of dark gray and white, styled in voluminous, tight curls that reach past her shoulders. Her eyes are a light, vivid blue, rounder in shape, and set closer together. Her eyebrows are thin and gently curved. Her nose is slender with a pointed tip. Her lips are thin with a less defined cupid's bow. She has a composed, direct expression, with her head angled slightly to the left. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17703,
+      "prompt": "A woman in her early 60s, warm medium-deep skin, visible fine lines, round face with a strong, angular jawline. Voluminous, tight dark gray and white curly hair reaching past her shoulders, natural hairline. Light, intense blue, downturned eyes set closer together. Medium-thick, gently arched eyebrows. Narrow nose with a pointed tip. Thin lips with a subtle cupid's bow. Composed, direct expression, head angled slightly to the right. Leaning against a brick wall in a quiet alley, casual clothes, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 26688,
+      "prompt": "A woman in her early 60s, warm medium-deep skin tone, fine lines visible around her eyes and mouth, with a strong, square jawline, and a slightly longer face shape. Her hair is a striking mix of dark gray and white, in voluminous, looser curls that reach her shoulders, with a slightly receding hairline. Her eyes are light, vivid blue, deep-set and round, with thin, straight eyebrows. Her nose has a narrow bridge and a sharp, pointed tip. Her lips are thin with a less defined cupid's bow. She has a gentle, thoughtful expression, leaning against a weathered brick wall in a quiet alley, wearing casual clothes. Three-quarter body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 16007,
+      "prompt": "A woman in her 60s, warm medium-deep skin tone, visible fine lines, leaning against a brick wall in a quiet alley, casual clothes, three-quarter body shot. Face clearly visible. Her jawline is square and strong, a short straight nose with a slightly upturned tip, deep-set round eyes, thin lips with a subtle curve, and a prominent chin. Her hair is a striking mix of dark gray and white, styled in voluminous, tight curls that reach past her shoulders, with a natural hairline. Her eyes are a light, vivid blue. Her eyebrows are thin and slightly angled. A composed, direct expression, head angled slightly to the left. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00050",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00050",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5312,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00050_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00050_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4531,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00050_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5391,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00050_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "50-60",
+      "ethnic_hint": "of South Asian descent",
+      "hair": "straight blonde hair",
+      "eyes": "amber eyes"
+    },
+    "description": "A woman appearing to be in her 40s to 50s has olive skin with some fine lines around the eyes and forehead, and a few small moles on her cheek and chin. Her face is an oval shape with a softly defined jawline. Her hair is medium blonde, straight, and falls to her shoulders with a center part, revealing a slightly receding hairline at the temples. Her almond-shaped eyes are a warm brown, set slightly wide apart, beneath thick, dark, and well-defined eyebrows that arch gently. Her nose is medium-sized with a straight bridge and a rounded tip. Her lips are medium-thick, with a slight upward curve at the corners, revealing a partial smile with visible upper teeth. She has an overall appearance suggesting South Asian heritage, and her head is angled slightly to her right, looking directly at the viewer with a pleasant, closed-mouth smile.",
+    "anchor": "woman with warm brown eyes and blonde hair",
+    "action_scenario": "riding a bicycle on a sunlit city street, casual clothing, full-body shot, face turned slightly toward the camera",
+    "type_a_action_verify": null
+  }
+}

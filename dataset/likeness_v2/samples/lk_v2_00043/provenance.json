@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:22.004904+00:00",
+  "type_a": true,
+  "action_scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 16048,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their forties, of Sub-Saharan African descent, with a neat bun and light blue eyes, a relaxed expression. natural light from a side window. a softly blurred neutral indoor background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+    "prompt": "The exact same person as in the reference image, now cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 242730
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 25187,
+      "prompt": "A male-presenting person in their early 40s, deep brown skin with a radiant, smooth complexion, some subtle crow's feet at the outer corners of their eyes. Their face is heart-shaped with a gently rounded jawline. Dark brown dreadlocks are neatly tied into a high bun, revealing a prominent widow's peak. The eyes are a striking light blue, downturned, and set closer together. Thick, dark, straight eyebrows. The nose is slender with a high bridge and a pointed tip. Lips are thin with a less defined cupid's bow. A neatly trimmed dark beard and mustache contour the chin and upper lip. The person has a warm skin tone with hints of coppery undertones. They are cooking at a stovetop in a sunlit kitchen, wearing a canvas apron, looking forward with a faint, thoughtful smile, head slightly bowed. Three-quarter body shot. Cinematic lighting. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23096,
+      "prompt": "A male-presenting person in their 40s with deep brown skin and a warm golden undertone, cooking at a stovetop in a sunlit kitchen, wearing a canvas apron, three-quarter body shot. Head turned slightly right, with a soft, closed-mouth smile. Their face is heart-shaped with a subtly rounded jawline. Dark brown dreadlocks are styled in a high ponytail, framing a slightly higher forehead. Their eyes are striking light blue, round, and close-set. Medium-thick, dark eyebrows have a flatter arch. The nose is narrower with a slight upturn at the tip and a gentle slope on the bridge. Lips are thinner with a less defined cupid's bow. A neatly trimmed dark beard and mustache contour the chin and upper lip. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 25370,
+      "prompt": "A male-presenting person in their 40s with deep brown skin and a smooth texture, fine lines visible on the forehead and around the eyes. Dark brown dreadlocks pulled back into a bun, revealing a slightly receding hairline. Their face is heart-shaped with a subtly rounded jaw and a prominent chin. The eyes are striking light blue, deep-set, and downturned. Thick, dark eyebrows have a pronounced arch. The nose is slender with a slight bridge bump and a pointed tip. Lips are thin with a less defined cupid's bow. A neatly trimmed dark beard and mustache cover the chin and upper lip. The person has a warm skin tone with hints of golden undertones. They are cooking at a stovetop in a sunlit kitchen, wearing an apron, looking directly at the viewer with a neutral expression, head level. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:04:42.215947+00:00",
+  "type_a": false,
+  "action_scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15382,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their forties, of Northern European descent, with short black hair and amber eyes, a relaxed expression. warm afternoon sunlight. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 30818,
+      "prompt": "A woman in her early 40s with fair skin walking through an autumn park, full of colorful fallen leaves. She has a round face with a softly angled jawline, a short, dark brown bob with a side part, and warm hazel eyes that are slightly upturned. Her nose is aquiline with a narrow bridge, and her lips are full with a distinct cupid's bow. Her cheekbones are high and prominent. She has a neutral expression, looking slightly off-camera. Full-body candid photograph. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 29605,
+      "prompt": "Full-body candid photograph of a woman in her early 40s, walking through an autumn park with fallen leaves, her face clearly visible. She has fair skin with subtle fine lines, a heart-shaped face with a softer, slightly narrower jawline. Her short, dark brown hair in a slightly tousled pixie cut frames her face. Her eyes are warm hazel, rounder and set closer together than average. Her eyebrows are thicker and have a stronger arch. She has a delicate, upturned nose and full, bow-shaped lips. A faint, gentle closed-mouth smile plays on her face, and her head is tilted slightly to the left. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21499,
+      "prompt": "A woman in her early 40s, fair skin, light wrinkles around eyes and mouth, walking through an autumn park with fallen leaves, full-body candid photograph. She has an angular jawline, a short, slightly upturned nose, and full, heart-shaped lips with a hint of a smile. Her eyes are large, round, and hazel, set close together. Her dark brown hair is styled in a sleek, elegant bob that skims her chin, with a high hairline and a prominent forehead. Her eyebrows are thin and gently curved. Her face suggests a mixed heritage. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17845,
+      "prompt": "Full body candid photograph of a woman in her 40s, walking through an autumn park with leaves on the ground, soft smile. She has a heart-shaped face with a softer, less defined jawline, and a slightly higher brow. Her eyes are light brown, rounder, and closer set. Her nose is aquiline with a slightly pointed tip. Her lips are full with a pronounced cupid's bow. She has short, dark brown hair in a neat, side-swept pixie cut. Her chin is more pointed. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

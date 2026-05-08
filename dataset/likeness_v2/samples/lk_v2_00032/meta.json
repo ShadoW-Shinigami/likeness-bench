@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00032",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00032",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00032_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00032_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5078,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00032_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00032_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "20-30",
+      "ethnic_hint": "of East Asian descent",
+      "hair": "buzzed hair",
+      "eyes": "soft green eyes"
+    },
+    "description": "The person appears to be a male in their 30s, with olive skin and visible pores, particularly on the cheeks and forehead. Their face is an oval shape with a defined jawline. The hair is very short, dark brown, and buzz-cut, with a natural hairline.\n\nThe eyes are almond-shaped and a striking light green or hazel, set slightly wide apart. Eyebrows are medium-thick and straight. The nose has a straight bridge and a rounded tip. The mouth features medium-thick lips, with the upper lip slightly thinner than the lower, forming a gentle smile.\n\nThere is light stubble visible on the chin and upper lip, and a few small moles or freckles are scattered across the cheeks and forehead. The overall facial structure suggests East Asian features. The person is looking directly at the viewer with a slight, pleasant smile, and their head is angled slightly to the right.",
+    "anchor": "striking light green almond-shaped eyes",
+    "action_scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+    "type_a_action_verify": null
+  }
+}

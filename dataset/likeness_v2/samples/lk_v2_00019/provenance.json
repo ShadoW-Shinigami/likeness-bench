@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:13.728162+00:00",
+  "type_a": false,
+  "action_scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 18416,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their early thirties, of Sub-Saharan African descent, with salt-and-pepper hair and soft green eyes, a calm, neutral expression. diffuse cloudy-day lighting. a plain off-white wall. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18742,
+      "prompt": "A male-presenting individual with deep, smooth skin, late 40s, standing at a busy bar holding a glass, soft warm lighting. Square-shaped face, a slightly softer jawline than the reference, with a medium-length, wavy dark brown beard and mustache starting to show flecks of grey. Hair is close-cropped and wavy, a glossy dark brown, with a moderately receding hairline and a high forehead. Eyes are round and dark brown, with a discerning gaze, distinct from the almond shape of the reference. The nose is slender with a slight hook and a pointed tip. Lips are thin with a less defined cupid's bow. Eyebrows are thin and straight. The expression is one of thoughtful observation. Medium full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 15700,
+      "prompt": "A male-presenting individual, estimated to be in their 40s, with deep, smooth skin. Their face is square-shaped with a strong, angular jawline. The hair is very short, wavy, and entirely black, with a low, even hairline. Striking hazel eyes are deep-set and round, complemented by thin, straight eyebrows. The nose is narrow with a slight bump on the bridge and a pointed tip. Lips are thin with a less defined cupid's bow. A sparse, neatly trimmed goatee and mustache, entirely black, covers the chin and upper lip. He is standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 41082,
+      "prompt": "A male-presenting individual in their 40s with deep, warm-toned skin, standing at a busy bar holding a glass. Their face is square-shaped with a strong, angular jawline. Short, tightly coiled dark brown hair with subtle graying at the temples. Piercing hazel eyes, slightly downturned, under low, straight eyebrows. The nose is slender with a high bridge and a pointed tip. Lips are thin and wide, forming a gentle smile. A short, neatly trimmed goatee and mustache, entirely dark brown. Medium full-body shot, soft warm lighting. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17813,
+      "prompt": "A male-presenting individual, late 40s, deep brown skin with subtle fine lines, squarish face, strong jawline. Short, tightly coiled dark hair with flecks of gray, receding hairline. Dark blue, round eyes with a subtle epicanthic fold, medium-thick, straight eyebrows. Narrow nose bridge with a slightly hooked tip. Thin lips. Full dark gray and black beard and mustache. Neutral expression. Standing in a bustling bar, holding a whiskey glass, bathed in soft, warm golden light. Medium full-body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00034",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00034",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00034_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00034_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5312,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00034_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00034_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "40-50",
+      "ethnic_hint": "of Sub-Saharan African descent",
+      "hair": "straight blonde hair",
+      "eyes": "warm brown eyes"
+    },
+    "description": "A man in his 40s-50s with deep brown skin and some fine lines around the eyes and forehead. His face is oval with a defined jawline. His hair is very short, tightly cropped, and dyed a bright, light blonde, with a natural hairline. His eyes are dark brown, almond-shaped, and set slightly wide apart. His eyebrows are medium thickness and gently arched. His nose has a broad bridge and a rounded tip. His lips are medium thickness with a soft, natural curve. He has a short, salt-and-pepper beard and mustache. His features suggest a mixed heritage. He has a gentle, closed-mouth smile and his head is angled slightly to the left.",
+    "anchor": "very short bright blonde hair",
+    "action_scenario": "standing at a busy bar holding a glass, soft warm lighting, medium full-body shot, face clearly visible",
+    "type_a_action_verify": null
+  }
+}

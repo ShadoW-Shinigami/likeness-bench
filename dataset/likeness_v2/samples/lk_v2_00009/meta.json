@@ -1,0 +1,87 @@
+{
+  "id": "lk_v2_00009",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00009",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00009_look_3",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00009_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5391,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00009_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5469,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00009_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "E",
+  "none_of_the_above_is_correct": true,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": true,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "60-70",
+      "ethnic_hint": "of Mediterranean descent",
+      "hair": "long curly hair",
+      "eyes": "sharp hazel eyes"
+    },
+    "description": "A woman in her 50s with olive skin and some fine lines around her eyes and forehead has an oval face with a defined jawline. Her dark, medium-length curly hair, flecked with gray, frames her face, with a slightly receding hairline. Her almond-shaped eyes are a warm hazel, set moderately apart. Her eyebrows are medium-thick and naturally arched. Her nose is straight with a slightly rounded tip. Her lips are medium-thick and well-defined. She has a few small moles on her forehead and cheek. Her features suggest a Mediterranean or Middle Eastern heritage. She looks to the left with a contemplative expression, her head slightly tilted up.",
+    "anchor": "Woman with dark, gray-flecked curly hair and hazel eyes.",
+    "action_scenario": "shopping at an outdoor farmer's market, holding a paper bag with vegetables, full-body shot",
+    "type_a_action_verify": null
+  }
+}

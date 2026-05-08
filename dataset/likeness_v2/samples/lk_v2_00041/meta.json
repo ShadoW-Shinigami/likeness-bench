@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00041",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00041",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00041_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4688,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00041_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+      "variation_hint": "the eyebrow thickness, hairline, and forehead height"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00041_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.4688,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00041_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+      "variation_hint": null
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "A",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "20-30",
+      "ethnic_hint": "of Mediterranean descent",
+      "hair": "a neat bun",
+      "eyes": "soft green eyes"
+    },
+    "description": "A person in their 20s, presenting as male, has medium olive skin with minimal texture, and an oval face shape with a defined jawline. Their dark brown hair is pulled back into a bun, revealing a slightly receding hairline. The eyes are almond-shaped and green with flecks of brown, set slightly wide apart. Thick, dark eyebrows have a gentle arch. The nose is straight with a slightly rounded tip. Lips are medium thickness and well-defined. A short, dark stubble covers the jawline and chin. The person has an overall appearance hinting at Mediterranean or Middle Eastern ancestry. They wear a neutral expression, looking directly at the viewer with their head held straight.",
+    "anchor": "Green eyes with brown flecks",
+    "action_scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye shape, nose, and mouth, are consistent.",
+      "cost_usd": 0.0002331,
+      "elapsed_ms": 4050
+    }
+  }
+}

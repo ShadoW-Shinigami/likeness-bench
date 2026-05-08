@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00010",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00010",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00010_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5234,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00010_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": null
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00010_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the lip shape, brow height, and chin"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4766,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00010_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "A",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "40-50",
+      "ethnic_hint": "of East Asian descent",
+      "hair": "a neat bun",
+      "eyes": "amber eyes"
+    },
+    "description": "The subject is a female presenting individual in their 30s to 40s. They have a warm olive skin tone with a smooth texture, showing some subtle fine lines around the eyes and scattered small freckles across the cheeks and nose. Their face is an oval shape with a gently rounded jawline. Dark brown hair is pulled back into a neat bun, revealing a clean hairline. The eyes are a striking amber color, almond-shaped, and set slightly wide apart. Eyebrows are medium thickness and gently arched. The nose has a straight bridge and a rounded tip. Lips are medium thickness with a well-defined cupid's bow. The expression is a soft, closed-mouth smile, and the head is angled slightly to the right, looking directly at the viewer.",
+    "anchor": "Striking amber eyes",
+    "action_scenario": "hiking on a forest trail with a daypack, casual outdoor clothes, full-body shot, face turned toward camera",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye shape, nose, and mouth, are consistent.",
+      "cost_usd": 0.0002331,
+      "elapsed_ms": 5836
+    }
+  }
+}

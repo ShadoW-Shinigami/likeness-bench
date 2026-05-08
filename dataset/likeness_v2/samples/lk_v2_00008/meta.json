@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00008",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00008",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.5156,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00008_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": null
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4922,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00008_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.5156,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00008_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5547,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00008_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "B",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "f",
+      "age_band": "30-40",
+      "ethnic_hint": "of Latin American descent",
+      "hair": "straight blonde hair",
+      "eyes": "warm brown eyes"
+    },
+    "description": "A woman in her 30s with fair skin, a smattering of light freckles across her nose and cheeks, and a slightly textured complexion. Her face is oval with a softly defined jawline. Her hair is long, straight, and blonde with darker roots, parted slightly off-center, reaching past her shoulders. Her almond-shaped eyes are a warm brown and set normally, beneath medium-thick, gently arched eyebrows. Her nose is straight with a rounded tip, and her mouth features medium-full lips, curved into a broad smile revealing white teeth. The woman presents with a warm, friendly expression, and her head is angled slightly to the right.",
+    "anchor": "Woman with long blonde hair and warm brown eyes.",
+    "action_scenario": "jogging along a beach at sunrise, athletic clothing, full-body shot, face clearly visible",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features and their arrangement are consistent across both images.",
+      "cost_usd": 0.0002231,
+      "elapsed_ms": 2945
+    }
+  }
+}

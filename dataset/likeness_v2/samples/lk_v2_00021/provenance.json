@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:24.886486+00:00",
+  "type_a": false,
+  "action_scenario": "walking through an autumn park with leaves on the ground, full-body candid photograph",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 15465,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their early thirties, of Middle Eastern descent, with salt-and-pepper hair and light blue eyes, a calm, neutral expression. soft daylight from a north-facing window. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": null,
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 20909,
+      "prompt": "A male-presenting individual in their 40s with olive skin, walking through an autumn park with leaves on the ground, a full-body candid photograph. He has a square jawline, a Roman nose, deep-set round eyes, and thin lips. His hair is short, dark brown with subtle gray streaks, and he has a higher forehead with thin, straight eyebrows. A neatly trimmed goatee outlines his chin. His expression is thoughtful, looking slightly to the side. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 34963,
+      "prompt": "Full-body candid photograph of a male-presenting individual in his 40s walking through an autumn park with leaves on the ground. He has a medium skin tone, and his face is rectangular with prominent cheekbones and a soft jawline. His short, thick, salt-and-pepper gray hair is styled casually swept back. His bright blue eyes are round and set wide apart, complemented by thick, dark, straight eyebrows. His nose is slightly upturned with a broad bridge and rounded tip, and his mouth has thin, well-defined lips. He has a short, neatly trimmed gray beard and mustache. His expression is neutral, looking forward. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 23898,
+      "prompt": "Full-body candid photograph of a male-presenting individual in their early 40s with a medium skin tone, walking through an autumn park with fallen leaves on the ground. He has a broad, square jawline, a slightly upturned nose with a wider bridge, and closely-set, round green eyes. His short, dark gray hair is thick and messy, with a slightly deeper receding hairline than average. A short, neatly trimmed gray beard covers his lower face. He has thin lips and a neutral expression, looking directly forward. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 21225,
+      "prompt": "Full-body candid photograph of a male-presenting individual in their 40s walking through an autumn park with leaves on the ground. Three-quarter body shot, face clearly visible. Medium skin tone, slight stubble. Round face with a softer jawline. Short, dark brown hair, slightly thinning at the temples, styled with a side part. Hazel eyes, slightly downturned, with thin, straight eyebrows. Broad nose with a rounded tip. Thin lips. Neutral expression, looking slightly off-camera. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}

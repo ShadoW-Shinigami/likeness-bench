@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:05:14.174190+00:00",
+  "type_a": true,
+  "action_scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 16796,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional man in their mid-twenties, of Mediterranean descent, with a neat bun and soft green eyes, a calm, neutral expression. soft daylight from a north-facing window. a softly lit gray studio backdrop. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body",
+    "prompt": "The exact same person as in the reference image, now working at a wooden desk with a laptop and coffee cup, looking up at the camera, three-quarter body. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 236387
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 24410,
+      "prompt": "A person in their 20s, presenting as male, with warm olive skin. Rectangular face shape with a prominent jawline and a subtle cleft chin. Dark brown hair, short on the sides and slightly longer on top, brushed back, revealing a moderately high forehead. Deep-set, round brown eyes, close-set. Thin, straight dark eyebrows. A slightly upturned nose with a defined bridge. Thin, chiseled lips. Clean-shaven. The person is working at a wooden desk with a laptop and a coffee cup, looking up at the camera with a neutral expression, three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22323,
+      "prompt": "A young person in their late 20s, presenting as male, with warm olive skin and a smooth complexion, seated at a wooden desk, looking up at the camera with a neutral expression. Their dark brown hair is styled in a messy bun, showing a slightly higher hairline. They have deep-set, round brown eyes with a slight epicanthic fold, a strong, angular jawline, a prominent hooked nose, and full, pouty lips. A short, dark beard covers their jawline and chin. A laptop and a coffee cup are visible on the desk. Three-quarter body shot. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 25651,
+      "prompt": "A person in their late 20s, masculine presenting, with medium olive skin and a slightly longer, more angular face than oval with a subtly softer jawline. Their dark brown hair is close"
+    }
+  ]
+}

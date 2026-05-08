@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "tiny_benchmark",
+  "title": "Tiny Fixture Benchmark",
+  "description": "5-sample fixture for self-check + UI smoke tests. Procedurally drawn faces.",
+  "task_type": "mcq_likeness",
+  "sample_ids": [
+    "0001",
+    "0002",
+    "0003",
+    "0004",
+    "0005"
+  ],
+  "schema_version": "1.0.0"
+}

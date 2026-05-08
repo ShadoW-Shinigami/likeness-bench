@@ -1,0 +1,92 @@
+{
+  "id": "lk_v2_00028",
+  "schema_version": "1.0.0",
+  "task_type": "mcq_likeness",
+  "subject": {
+    "person_id": "lk_v2_00028",
+    "real_or_synthetic": "synthetic",
+    "license": "CC-BY-4.0 (NB2 + GPT-Image-2 fictional persons)",
+    "source": "nb2+gpt-image-2"
+  },
+  "base_image": "base.jpg",
+  "options": {
+    "C": {
+      "image": "option_c.jpg",
+      "kind": "true_match",
+      "similarity_tier": "self",
+      "similarity_cosine": 0.4766,
+      "source": "gpt_image_2_edit",
+      "person_id": "lk_v2_00028_self",
+      "generated_by": "openai/gpt-image-2/edit",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": null
+    },
+    "D": {
+      "image": "option_d.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5234,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00028_look_1",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": "the cheekbone prominence and face length"
+    },
+    "B": {
+      "image": "option_b.jpg",
+      "kind": "distractor",
+      "similarity_tier": "medium",
+      "similarity_cosine": 0.5312,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00028_look_0",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": "the nose bridge, eye color, and lip fullness"
+    },
+    "A": {
+      "image": "option_a.jpg",
+      "kind": "distractor",
+      "similarity_tier": "easy",
+      "similarity_cosine": 0.4844,
+      "source": "nb2_action_lookalike",
+      "person_id": "lk_v2_00028_look_2",
+      "generated_by": "fal-ai/nano-banana-2",
+      "scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+      "variation_hint": "the nose shape, eye spacing, and jaw width"
+    },
+    "E": {
+      "is_none_of_the_above": true
+    }
+  },
+  "correct_answer": "C",
+  "none_of_the_above_is_correct": false,
+  "metadata": {
+    "tier": "mixed",
+    "difficulty_split": "medium",
+    "type_b": false,
+    "preset": "v2_action_scenario",
+    "synthid_present": true,
+    "human_reviewed": false,
+    "generator_models": [
+      "fal-ai/nano-banana-2",
+      "openai/gpt-image-2/edit"
+    ],
+    "embedding_model": "phash16",
+    "demographic_hint": {
+      "perceived_gender": "m",
+      "age_band": "50-60",
+      "ethnic_hint": "of mixed heritage",
+      "hair": "long curly hair",
+      "eyes": "soft green eyes"
+    },
+    "description": "A person in their 50s, appearing male, has olive skin with visible fine lines on the forehead and around the eyes. Their face is an oval shape with a defined jawline. Long, dark grey, tightly curled hair frames the face and extends past the shoulders, with a receding hairline at the temples. The eyes are almond-shaped and green, set moderately apart, with thick, dark, slightly arched eyebrows. The nose has a straight bridge and a rounded tip. The lips are medium thickness, with a well-defined cupid's bow. A short, salt-and-pepper stubble beard covers the jawline and chin. The person's features suggest a mixed heritage. The expression is neutral and contemplative, with the head turned slightly to the left, looking off into the distance.",
+    "anchor": "Long, dark grey, tightly curled hair",
+    "action_scenario": "cooking at a stovetop in a sunlit kitchen, wearing an apron, three-quarter body shot",
+    "type_a_action_verify": {
+      "same": true,
+      "reason": "YES\nThe facial features, including eye spacing, nose shape, and mouth, are consistent.",
+      "cost_usd": 0.0002356,
+      "elapsed_ms": 3725
+    }
+  }
+}

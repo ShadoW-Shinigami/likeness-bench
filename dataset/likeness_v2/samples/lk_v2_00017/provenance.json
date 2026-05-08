@@ -1,0 +1,48 @@
+{
+  "built_at": "2026-05-08T08:03:06.516949+00:00",
+  "type_a": true,
+  "action_scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+  "base": {
+    "endpoint": "fal-ai/nano-banana-2",
+    "request_id": null,
+    "image_url": "[redacted]",
+    "cost_usd": 0.045,
+    "elapsed_ms": 29642,
+    "prompt": "A photographic, candid, head-and-shoulders portrait of a fictional woman in their mid-twenties, of Sub-Saharan African descent, with salt-and-pepper hair and amber eyes, a thoughtful look. diffuse cloudy-day lighting. a blurred bookshelf in the background. Realistic skin texture, natural pores, no makeup, no glasses, no jewelry, no text, no watermark, sharp focus on the face. This is a fictional character \u2014 do not generate a real or named person."
+  },
+  "action": {
+    "endpoint": "openai/gpt-image-2/edit",
+    "image_url": "[redacted]",
+    "input_image_url": "[redacted]",
+    "scenario": "playing with a dog in a backyard with a ball, sunny daylight, full-body shot",
+    "prompt": "The exact same person as in the reference image, now playing with a dog in a backyard with a ball, sunny daylight, full-body shot. Preserve every facial feature exactly: same face shape, same eye color, same nose, same hair color and texture, same skin tone. Photographic, realistic, sharp focus on the face. No text, no watermark.",
+    "cost_usd": 0.3,
+    "elapsed_ms": 224948
+  },
+  "lookalikes": [
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 18256,
+      "prompt": "A woman in her late 30s, with warm, deep olive skin and a smattering of faint sun spots across her forehead and temples. Her face is heart-shaped, with high, sculpted cheekbones and a delicate, pointed jawline. Her hair is a rich, dark auburn with subtle highlights, styled in voluminous, loose waves that cascade around her shoulders. Her large, round, dark brown eyes sparkle with amusement, set close together under thick, straight eyebrows. Her nose is long and narrow with a slightly upturned tip, and her thin lips are parted in a joyful smile, revealing a glimpse of teeth. She has a faint scar above her right eyebrow. She is reaching down, playfully throwing a bright red ball for a golden retriever in a sunny backyard. Full-body shot, dynamic pose. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 22008,
+      "prompt": "A full-body shot of a woman in her late 30s, of Indian descent, with a playful expression, dark brown skin, and a scattering of small freckles on her nose and cheeks. Her face is heart-shaped, with a gently tapered jawline. She has long, wavy dark brown hair with prominent gray streaks, pulled back into a messy ponytail. Her round, amber eyes are set closer together under straight, medium-thick eyebrows. Her nose is narrow with a slightly upturned tip, and her lips are full with a subtle upward curve. She is smiling broadly while playing fetch with a golden retriever in a sunlit backyard, holding a red tennis ball. Photographic, sharp focus, realistic skin texture."
+    },
+    {
+      "endpoint": "fal-ai/nano-banana-2",
+      "request_id": null,
+      "image_url": "[redacted]",
+      "cost_usd": 0.045,
+      "elapsed_ms": 17019,
+      "prompt": "A woman in her late 30s, medium-dark skin with a smooth complexion, round face with a soft jawline, thick wavy dark brown hair with subtle gray streaks pulled back from a high forehead, narrow-set, deep-set round dark brown eyes under thin, straight eyebrows, small, upturned nose, thin lips slightly parted in a soft smile. She is playing fetch with a golden retriever in a sun-drenched suburban backyard, holding a tennis ball. Full body shot, face clearly visible. Photographic, sharp focus, realistic skin texture."
+    }
+  ]
+}
